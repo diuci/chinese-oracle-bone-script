@@ -1,0 +1,17 @@
+甲骨文内容 · chinese-oracle-bone-script
+
+本仓内容分三层授权：
+
+1. 甲骨卜辞原文（甲骨形、卜辞文字）
+   —— 公有领域（商代晚期，作者佚名，年代上限远早于保护期，逐字可核验，见 PROVENANCE.md）。
+   自由使用，无需许可，无需署名（署名是礼貌，不是义务）。
+
+2. 我方原创内容（现代释义、字源解说、选字编排、目录分类、解析文字）
+   —— 采用 CC BY 4.0。使用时请署名「来源：chinese-oracle-bone-script / 丢词大作战」。
+   https://creativecommons.org/licenses/by/4.0/
+
+3. 本仓脚本（tools/）
+   —— MIT 许可。
+
+逐字版权依据见 PROVENANCE.md。仍在著作权保护期内的当代释义不收录原文，
+登记在 pending/。认为本仓某处侵犯你的权利，请联系 hi@diuci.com。

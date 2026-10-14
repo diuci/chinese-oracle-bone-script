@@ -1,0 +1,55 @@
+name: 校验内容仓
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出
+        uses: actions/checkout@v5
+
+      - name: 装 Pillow（gen-glyphs.py 渲染字形用）
+        run: pip install Pillow
+
+      - name: 检查器自检（每个护栏先证明它抓得住坏例子）
+        # 存在但没接进链的检查等同于没有检查。每个 --selftest 都用坏样本证明护栏真拦得住。
+        run: |
+          python3 tools/validate.py --selftest
+          python3 tools/build.py --selftest
+          python3 tools/gen-index.py --selftest
+          python3 tools/build-site.py --selftest
+          python3 tools/gen-glyphs.py --selftest
+          node tools/check-legal.mjs --selftest
+
+      - name: 离线检查
+        run: |
+          python3 tools/validate.py
+          python3 tools/build.py
+
+      - name: 派生产物重算与审计
+        run: |
+          python3 tools/gen-index.py
+          python3 tools/build-site.py
+          python3 tools/gen-glyphs.py
+          node tools/check-legal.mjs
+
+      - name: 可复现闸门：跑完不许改动任何已提交的文件
+        # build.py / gen-index.py / build-site.py / gen-glyphs.py 会写
+        # data/characters.json、data/checksums.json、characters/索引.md、site/**、characters/**/*.png。
+        # 重算结果与提交进去的不一样，这里就红：提交进去的产物必须是链条跑出来的，不是手改出来的。
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git diff --stat
+            git status --porcelain
+            echo '链条重算改了文件：提交进去的产物不是链条跑出来的。先本地重跑、提交，再推。'
+            exit 1
+          fi
+          echo '[ok] 重算结果与提交进去的产物逐字节一致'

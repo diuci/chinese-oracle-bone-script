@@ -1,0 +1,1176 @@
+{
+  "version": 1,
+  "count": 52,
+  "types": {
+    "人体动作": 11,
+    "动植物": 12,
+    "器物": 8,
+    "抽象": 6,
+    "数目": 6,
+    "自然现象": 9
+  },
+  "chars": [
+    {
+      "id": "kou",
+      "char": "口",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "人体",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/kou.png",
+      "tags": [
+        "口",
+        "人体",
+        "器官"
+      ],
+      "path": "characters/人体动作/口.md"
+    },
+    {
+      "id": "ren",
+      "char": "人",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "人体",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/ren.png",
+      "tags": [
+        "人",
+        "人体"
+      ],
+      "path": "characters/人体动作/人.md"
+    },
+    {
+      "id": "mu2",
+      "char": "目",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "人体",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/mu2.png",
+      "tags": [
+        "眼睛",
+        "人体"
+      ],
+      "path": "characters/人体动作/目.md"
+    },
+    {
+      "id": "mu3",
+      "char": "母",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "称谓",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/mu3.png",
+      "tags": [
+        "母",
+        "称谓",
+        "家庭"
+      ],
+      "path": "characters/人体动作/母.md"
+    },
+    {
+      "id": "nv",
+      "char": "女",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "称谓",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/nv.png",
+      "tags": [
+        "女",
+        "称谓",
+        "性别"
+      ],
+      "path": "characters/人体动作/女.md"
+    },
+    {
+      "id": "xin",
+      "char": "心",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "人体",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/xin.png",
+      "tags": [
+        "心",
+        "人体",
+        "器官"
+      ],
+      "path": "characters/人体动作/心.md"
+    },
+    {
+      "id": "zi",
+      "char": "子",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "称谓",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/zi.png",
+      "tags": [
+        "子",
+        "称谓",
+        "后代"
+      ],
+      "path": "characters/人体动作/子.md"
+    },
+    {
+      "id": "zou",
+      "char": "走",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "动作",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/zou.png",
+      "tags": [
+        "走",
+        "动作",
+        "行走"
+      ],
+      "path": "characters/人体动作/走.md"
+    },
+    {
+      "id": "fu",
+      "char": "父",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "称谓",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/fu.png",
+      "tags": [
+        "父",
+        "称谓",
+        "家庭"
+      ],
+      "path": "characters/人体动作/父.md"
+    },
+    {
+      "id": "shou",
+      "char": "手",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "人体",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/shou.png",
+      "tags": [
+        "手",
+        "人体"
+      ],
+      "path": "characters/人体动作/手.md"
+    },
+    {
+      "id": "zu",
+      "char": "足",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "人体",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/zu.png",
+      "tags": [
+        "足",
+        "人体",
+        "脚"
+      ],
+      "path": "characters/人体动作/足.md"
+    },
+    {
+      "id": "he",
+      "char": "禾",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "植物",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/he.png",
+      "tags": [
+        "禾",
+        "植物",
+        "谷"
+      ],
+      "path": "characters/动植物/禾.md"
+    },
+    {
+      "id": "mi",
+      "char": "米",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "植物",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/mi.png",
+      "tags": [
+        "米",
+        "植物",
+        "谷"
+      ],
+      "path": "characters/动植物/米.md"
+    },
+    {
+      "id": "mu4",
+      "char": "木",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "植物",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/mu4.png",
+      "tags": [
+        "树",
+        "植物"
+      ],
+      "path": "characters/动植物/木.md"
+    },
+    {
+      "id": "niao",
+      "char": "鸟",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/niao.png",
+      "tags": [
+        "鸟",
+        "动物"
+      ],
+      "path": "characters/动植物/鸟.md"
+    },
+    {
+      "id": "niu",
+      "char": "牛",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/niu.png",
+      "tags": [
+        "牛",
+        "动物"
+      ],
+      "path": "characters/动植物/牛.md"
+    },
+    {
+      "id": "yang",
+      "char": "羊",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/yang.png",
+      "tags": [
+        "羊",
+        "动物",
+        "家畜"
+      ],
+      "path": "characters/动植物/羊.md"
+    },
+    {
+      "id": "yu2",
+      "char": "鱼",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/yu2.png",
+      "tags": [
+        "鱼",
+        "动物"
+      ],
+      "path": "characters/动植物/鱼.md"
+    },
+    {
+      "id": "ma",
+      "char": "马",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/ma.png",
+      "tags": [
+        "马",
+        "动物"
+      ],
+      "path": "characters/动植物/马.md"
+    },
+    {
+      "id": "quan",
+      "char": "犬",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/quan.png",
+      "tags": [
+        "犬",
+        "动物",
+        "狗"
+      ],
+      "path": "characters/动植物/犬.md"
+    },
+    {
+      "id": "shi2",
+      "char": "豕",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/shi2.png",
+      "tags": [
+        "豕",
+        "动物",
+        "猪"
+      ],
+      "path": "characters/动植物/豕.md"
+    },
+    {
+      "id": "tu",
+      "char": "兔",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/tu.png",
+      "tags": [
+        "兔",
+        "动物"
+      ],
+      "path": "characters/动植物/兔.md"
+    },
+    {
+      "id": "zhu",
+      "char": "竹",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "植物",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/zhu.png",
+      "tags": [
+        "竹",
+        "植物"
+      ],
+      "path": "characters/动植物/竹.md"
+    },
+    {
+      "id": "dao",
+      "char": "刀",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "兵器",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/dao.png",
+      "tags": [
+        "刀",
+        "兵器",
+        "工具"
+      ],
+      "path": "characters/器物/刀.md"
+    },
+    {
+      "id": "gong",
+      "char": "弓",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "兵器",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/gong.png",
+      "tags": [
+        "弓",
+        "兵器"
+      ],
+      "path": "characters/器物/弓.md"
+    },
+    {
+      "id": "min",
+      "char": "皿",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "器皿",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/min.png",
+      "tags": [
+        "皿",
+        "器皿"
+      ],
+      "path": "characters/器物/皿.md"
+    },
+    {
+      "id": "che",
+      "char": "车",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "车马",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/che.png",
+      "tags": [
+        "车",
+        "车马",
+        "交通"
+      ],
+      "path": "characters/器物/车.md"
+    },
+    {
+      "id": "ding",
+      "char": "鼎",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "礼器",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/ding.png",
+      "tags": [
+        "鼎",
+        "礼器",
+        "祭器"
+      ],
+      "path": "characters/器物/鼎.md"
+    },
+    {
+      "id": "wang",
+      "char": "网",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "工具",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/wang.png",
+      "tags": [
+        "网",
+        "工具",
+        "渔猎"
+      ],
+      "path": "characters/器物/网.md"
+    },
+    {
+      "id": "zhou",
+      "char": "舟",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "车马",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/zhou.png",
+      "tags": [
+        "舟",
+        "船",
+        "交通"
+      ],
+      "path": "characters/器物/舟.md"
+    },
+    {
+      "id": "ge",
+      "char": "戈",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "兵器",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/ge.png",
+      "tags": [
+        "戈",
+        "兵器"
+      ],
+      "path": "characters/器物/戈.md"
+    },
+    {
+      "id": "da",
+      "char": "大",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "形状",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/da.png",
+      "tags": [
+        "大",
+        "形状"
+      ],
+      "path": "characters/抽象/大.md"
+    },
+    {
+      "id": "shang",
+      "char": "上",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "方位",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/shang.png",
+      "tags": [
+        "上",
+        "方位"
+      ],
+      "path": "characters/抽象/上.md"
+    },
+    {
+      "id": "xia",
+      "char": "下",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "方位",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/xia.png",
+      "tags": [
+        "下",
+        "方位"
+      ],
+      "path": "characters/抽象/下.md"
+    },
+    {
+      "id": "zhong",
+      "char": "中",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "方位",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/zhong.png",
+      "tags": [
+        "中",
+        "方位"
+      ],
+      "path": "characters/抽象/中.md"
+    },
+    {
+      "id": "duo",
+      "char": "多",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "数量",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/duo.png",
+      "tags": [
+        "多",
+        "数量"
+      ],
+      "path": "characters/抽象/多.md"
+    },
+    {
+      "id": "xiao",
+      "char": "小",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "形状",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/xiao.png",
+      "tags": [
+        "小",
+        "形状"
+      ],
+      "path": "characters/抽象/小.md"
+    },
+    {
+      "id": "bai",
+      "char": "百",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "数",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/bai.png",
+      "tags": [
+        "百",
+        "数"
+      ],
+      "path": "characters/数目/百.md"
+    },
+    {
+      "id": "er",
+      "char": "二",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "数",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/er.png",
+      "tags": [
+        "二",
+        "数"
+      ],
+      "path": "characters/数目/二.md"
+    },
+    {
+      "id": "qian",
+      "char": "千",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "数",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/qian.png",
+      "tags": [
+        "千",
+        "数"
+      ],
+      "path": "characters/数目/千.md"
+    },
+    {
+      "id": "san",
+      "char": "三",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "数",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/san.png",
+      "tags": [
+        "三",
+        "数"
+      ],
+      "path": "characters/数目/三.md"
+    },
+    {
+      "id": "shi",
+      "char": "十",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "数",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/shi.png",
+      "tags": [
+        "十",
+        "数"
+      ],
+      "path": "characters/数目/十.md"
+    },
+    {
+      "id": "yi",
+      "char": "一",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "数",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/yi.png",
+      "tags": [
+        "一",
+        "数"
+      ],
+      "path": "characters/数目/一.md"
+    },
+    {
+      "id": "ri",
+      "char": "日",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "天体",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/ri.png",
+      "tags": [
+        "太阳",
+        "天体"
+      ],
+      "path": "characters/自然现象/日.md"
+    },
+    {
+      "id": "shan",
+      "char": "山",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "地形",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/shan.png",
+      "tags": [
+        "山",
+        "地形"
+      ],
+      "path": "characters/自然现象/山.md"
+    },
+    {
+      "id": "yue",
+      "char": "月",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "天体",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/yue.png",
+      "tags": [
+        "月亮",
+        "天体"
+      ],
+      "path": "characters/自然现象/月.md"
+    },
+    {
+      "id": "huo",
+      "char": "火",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "火焰",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/huo.png",
+      "tags": [
+        "火",
+        "火焰"
+      ],
+      "path": "characters/自然现象/火.md"
+    },
+    {
+      "id": "shui",
+      "char": "水",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "流水",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/shui.png",
+      "tags": [
+        "水",
+        "流水"
+      ],
+      "path": "characters/自然现象/水.md"
+    },
+    {
+      "id": "tian",
+      "char": "天",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "天体",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/tian.png",
+      "tags": [
+        "天",
+        "天体"
+      ],
+      "path": "characters/自然现象/天.md"
+    },
+    {
+      "id": "yu",
+      "char": "雨",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "气象",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/yu.png",
+      "tags": [
+        "雨",
+        "气象"
+      ],
+      "path": "characters/自然现象/雨.md"
+    },
+    {
+      "id": "xing",
+      "char": "星",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "天体",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/xing.png",
+      "tags": [
+        "星",
+        "天体"
+      ],
+      "path": "characters/自然现象/星.md"
+    },
+    {
+      "id": "yun",
+      "char": "云",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "气象",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/yun.png",
+      "tags": [
+        "云",
+        "气象"
+      ],
+      "path": "characters/自然现象/云.md"
+    }
+  ]
+}

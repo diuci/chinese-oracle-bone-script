@@ -1,0 +1,16 @@
+{
+  "name": "chinese-oracle-bone-script-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "甲骨文开源内容库 · 浏览站点（VitePress）",
+  "type": "module",
+  "scripts": {
+    "prebuild": "python tools/build.py && python tools/gen-index.py && python tools/build-site.py",
+    "dev": "npm run prebuild && vitepress dev site",
+    "build": "vitepress build site",
+    "preview": "vitepress preview site"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
