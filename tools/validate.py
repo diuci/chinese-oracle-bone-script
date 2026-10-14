@@ -220,6 +220,14 @@ def check7_frontmatter(chars, chars_dir):
                 errs.append('%s 甲骨形缺失：%s' % (c.get('id'), glyph))
             elif gpath.stat().st_size == 0:
                 errs.append('%s 甲骨形为空文件：%s' % (c.get('id'), glyph))
+        # 原拓片（可选）：scan 字段若存在，文件必须在且非空（没配扫描图的字用渲染图，不卡验收）
+        scan = c.get('scan')
+        if scan:
+            spath = chars_dir / scan
+            if not spath.exists():
+                errs.append('%s 原拓片缺失：%s' % (c.get('id'), scan))
+            elif spath.stat().st_size == 0:
+                errs.append('%s 原拓片为空文件：%s' % (c.get('id'), scan))
     return errs
 
 

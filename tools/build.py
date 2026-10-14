@@ -30,7 +30,7 @@ import fm  # noqa: E402
 # 字条 frontmatter 里序列化进 characters.json 的字段（固定顺序 → 产物可复算）
 FIELDS = [
     'id', 'char', 'char_len', 'type', 'subtype', 'difficulty',
-    'author', 'era', 'source', 'license', 'copyright', 'glyph', 'tags',
+    'author', 'era', 'source', 'license', 'copyright', 'glyph', 'scan', 'tags',
 ]
 
 
