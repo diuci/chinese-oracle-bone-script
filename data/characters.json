@@ -192,7 +192,7 @@
         "annotations": "cc-by-4.0"
       },
       "glyph": "人体动作/zou.png",
-      "scan": null,
+      "scan": "人体动作/zou-scan.png",
       "tags": [
         "走",
         "动作",
@@ -240,7 +240,7 @@
         "annotations": "cc-by-4.0"
       },
       "glyph": "人体动作/shou.png",
-      "scan": null,
+      "scan": "人体动作/shou-scan.png",
       "tags": [
         "手",
         "人体"
@@ -263,7 +263,7 @@
         "annotations": "cc-by-4.0"
       },
       "glyph": "人体动作/zu.png",
-      "scan": null,
+      "scan": "人体动作/zu-scan.png",
       "tags": [
         "足",
         "人体",
@@ -451,7 +451,7 @@
         "annotations": "cc-by-4.0"
       },
       "glyph": "动植物/ma.png",
-      "scan": null,
+      "scan": "动植物/ma-scan.png",
       "tags": [
         "马",
         "动物"
