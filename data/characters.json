@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "count": 183,
+  "count": 189,
   "types": {
     "人体动作": 22,
     "动植物": 12,
     "器物": 19,
-    "抽象": 96,
-    "数目": 13,
-    "自然现象": 21
+    "抽象": 100,
+    "数目": 14,
+    "自然现象": 22
   },
   "chars": [
     {
@@ -1386,6 +1386,29 @@
       "path": "characters/抽象/非.md"
     },
     {
+      "id": "gen",
+      "char": "亘",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/gen.png",
+      "scan": "抽象/gen-scan.png",
+      "tags": [
+        "亘",
+        "抽象"
+      ],
+      "path": "characters/抽象/亘.md"
+    },
+    {
       "id": "hu",
       "char": "乎",
       "char_len": 1,
@@ -1407,6 +1430,29 @@
         "抽象"
       ],
       "path": "characters/抽象/乎.md"
+    },
+    {
+      "id": "ji2",
+      "char": "亟",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/ji2.png",
+      "scan": "抽象/ji2-scan.png",
+      "tags": [
+        "亟",
+        "抽象"
+      ],
+      "path": "characters/抽象/亟.md"
     },
     {
       "id": "ming2",
@@ -1798,6 +1844,29 @@
         "言语"
       ],
       "path": "characters/抽象/言.md"
+    },
+    {
+      "id": "yu4",
+      "char": "于",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/yu4.png",
+      "scan": "抽象/yu4-scan.png",
+      "tags": [
+        "于",
+        "抽象"
+      ],
+      "path": "characters/抽象/于.md"
     },
     {
       "id": "zha",
@@ -3342,7 +3411,7 @@
       "path": "characters/抽象/丯.md"
     },
     {
-      "id": "ji",
+      "id": "ji3",
       "char": "祭",
       "char_len": 1,
       "type": "抽象",
@@ -3356,8 +3425,8 @@
         "text": "public-domain",
         "annotations": "cc-by-4.0"
       },
-      "glyph": "抽象/ji.png",
-      "scan": "抽象/ji-scan.png",
+      "glyph": "抽象/ji3.png",
+      "scan": "抽象/ji3-scan.png",
       "tags": [
         "祭",
         "祭祀"
@@ -3455,6 +3524,29 @@
         "罕见"
       ],
       "path": "characters/抽象/乇.md"
+    },
+    {
+      "id": "ya",
+      "char": "亞",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/ya.png",
+      "scan": "抽象/ya-scan.png",
+      "tags": [
+        "亞",
+        "罕见"
+      ],
+      "path": "characters/抽象/亞.md"
     },
     {
       "id": "bai",
@@ -3710,6 +3802,29 @@
       "path": "characters/数目/万.md"
     },
     {
+      "id": "wu2",
+      "char": "五",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/wu2.png",
+      "scan": "数目/wu2-scan.png",
+      "tags": [
+        "五",
+        "数目"
+      ],
+      "path": "characters/数目/五.md"
+    },
+    {
       "id": "yi",
       "char": "一",
       "char_len": 1,
@@ -3869,6 +3984,29 @@
         "黑色"
       ],
       "path": "characters/自然现象/黑.md"
+    },
+    {
+      "id": "jing",
+      "char": "井",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "自然",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/jing.png",
+      "scan": "自然现象/jing-scan.png",
+      "tags": [
+        "井",
+        "自然"
+      ],
+      "path": "characters/自然现象/井.md"
     },
     {
       "id": "ming",
