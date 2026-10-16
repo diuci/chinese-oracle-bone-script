@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "count": 155,
+  "count": 160,
   "types": {
     "人体动作": 21,
     "动植物": 12,
     "器物": 19,
-    "抽象": 78,
+    "抽象": 83,
     "数目": 6,
     "自然现象": 19
   },
@@ -2903,6 +2903,121 @@
         "罕见"
       ],
       "path": "characters/抽象/䞢.md"
+    },
+    {
+      "id": "a54",
+      "char": "䠶",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/a54.png",
+      "scan": "抽象/a54-scan.png",
+      "tags": [
+        "䠶",
+        "罕见"
+      ],
+      "path": "characters/抽象/䠶.md"
+    },
+    {
+      "id": "a55",
+      "char": "䣬",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/a55.png",
+      "scan": "抽象/a55-scan.png",
+      "tags": [
+        "䣬",
+        "罕见"
+      ],
+      "path": "characters/抽象/䣬.md"
+    },
+    {
+      "id": "a56",
+      "char": "䧅",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/a56.png",
+      "scan": "抽象/a56-scan.png",
+      "tags": [
+        "䧅",
+        "罕见"
+      ],
+      "path": "characters/抽象/䧅.md"
+    },
+    {
+      "id": "a57",
+      "char": "䨮",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/a57.png",
+      "scan": "抽象/a57-scan.png",
+      "tags": [
+        "䨮",
+        "罕见"
+      ],
+      "path": "characters/抽象/䨮.md"
+    },
+    {
+      "id": "a58",
+      "char": "䵼",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/a58.png",
+      "scan": "抽象/a58-scan.png",
+      "tags": [
+        "䵼",
+        "罕见"
+      ],
+      "path": "characters/抽象/䵼.md"
     },
     {
       "id": "a6",
