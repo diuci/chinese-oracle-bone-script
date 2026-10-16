@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "count": 165,
+  "count": 171,
   "types": {
     "人体动作": 21,
     "动植物": 12,
     "器物": 19,
-    "抽象": 84,
-    "数目": 10,
-    "自然现象": 19
+    "抽象": 88,
+    "数目": 11,
+    "自然现象": 20
   },
   "chars": [
     {
@@ -3135,6 +3135,52 @@
       "path": "characters/抽象/㚻.md"
     },
     {
+      "id": "bing2",
+      "char": "並",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/bing2.png",
+      "scan": "抽象/bing2-scan.png",
+      "tags": [
+        "並",
+        "罕见"
+      ],
+      "path": "characters/抽象/並.md"
+    },
+    {
+      "id": "ge2",
+      "char": "丯",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/ge2.png",
+      "scan": "抽象/ge2-scan.png",
+      "tags": [
+        "丯",
+        "罕见"
+      ],
+      "path": "characters/抽象/丯.md"
+    },
+    {
       "id": "ji",
       "char": "祭",
       "char_len": 1,
@@ -3158,6 +3204,52 @@
       "path": "characters/抽象/祭.md"
     },
     {
+      "id": "jiu",
+      "char": "丩",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/jiu.png",
+      "scan": "抽象/jiu-scan.png",
+      "tags": [
+        "丩",
+        "罕见"
+      ],
+      "path": "characters/抽象/丩.md"
+    },
+    {
+      "id": "nv2",
+      "char": "丮",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/nv2.png",
+      "scan": "抽象/nv2-scan.png",
+      "tags": [
+        "丮",
+        "罕见"
+      ],
+      "path": "characters/抽象/丮.md"
+    },
+    {
       "id": "bai",
       "char": "百",
       "char_len": 1,
@@ -3179,6 +3271,29 @@
         "数"
       ],
       "path": "characters/数目/百.md"
+    },
+    {
+      "id": "bing",
+      "char": "丙",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/bing.png",
+      "scan": "数目/bing-scan.png",
+      "tags": [
+        "丙",
+        "数目"
+      ],
+      "path": "characters/数目/丙.md"
     },
     {
       "id": "chou",
@@ -3524,6 +3639,29 @@
         "空气"
       ],
       "path": "characters/自然现象/气.md"
+    },
+    {
+      "id": "qiu",
+      "char": "丘",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "自然",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/qiu.png",
+      "scan": "自然现象/qiu-scan.png",
+      "tags": [
+        "丘",
+        "自然"
+      ],
+      "path": "characters/自然现象/丘.md"
     },
     {
       "id": "ri",
