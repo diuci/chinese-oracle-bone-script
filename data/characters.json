@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "count": 89,
+  "count": 95,
   "types": {
-    "人体动作": 20,
+    "人体动作": 21,
     "动植物": 12,
     "器物": 15,
-    "抽象": 22,
+    "抽象": 25,
     "数目": 6,
-    "自然现象": 14
+    "自然现象": 16
   },
   "chars": [
     {
@@ -194,6 +194,29 @@
         "舌头"
       ],
       "path": "characters/人体动作/舌.md"
+    },
+    {
+      "id": "shen",
+      "char": "身",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "身体",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/shen.png",
+      "scan": "人体动作/shen-scan.png",
+      "tags": [
+        "身",
+        "身体"
+      ],
+      "path": "characters/人体动作/身.md"
     },
     {
       "id": "shou2",
@@ -1248,6 +1271,29 @@
       "path": "characters/抽象/非.md"
     },
     {
+      "id": "ming2",
+      "char": "名",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "名字",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/ming2.png",
+      "scan": "抽象/ming2-scan.png",
+      "tags": [
+        "名",
+        "名字"
+      ],
+      "path": "characters/抽象/名.md"
+    },
+    {
       "id": "mo",
       "char": "莫",
       "char_len": 1,
@@ -1409,6 +1455,29 @@
       "path": "characters/抽象/未.md"
     },
     {
+      "id": "wen",
+      "char": "文",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "文字",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/wen.png",
+      "scan": "抽象/wen-scan.png",
+      "tags": [
+        "文",
+        "文字"
+      ],
+      "path": "characters/抽象/文.md"
+    },
+    {
       "id": "wu",
       "char": "勿",
       "char_len": 1,
@@ -1476,6 +1545,29 @@
         "方位"
       ],
       "path": "characters/抽象/下.md"
+    },
+    {
+      "id": "yan",
+      "char": "言",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "言语",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/yan.png",
+      "scan": "抽象/yan-scan.png",
+      "tags": [
+        "言",
+        "言语"
+      ],
+      "path": "characters/抽象/言.md"
     },
     {
       "id": "zhong",
@@ -1799,6 +1891,52 @@
         "光芒"
       ],
       "path": "characters/自然现象/光.md"
+    },
+    {
+      "id": "ming",
+      "char": "明",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "光明",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/ming.png",
+      "scan": "自然现象/ming-scan.png",
+      "tags": [
+        "明",
+        "光明"
+      ],
+      "path": "characters/自然现象/明.md"
+    },
+    {
+      "id": "qi",
+      "char": "气",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "气流",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/qi.png",
+      "scan": "自然现象/qi-scan.png",
+      "tags": [
+        "气",
+        "空气"
+      ],
+      "path": "characters/自然现象/气.md"
     },
     {
       "id": "ri",
