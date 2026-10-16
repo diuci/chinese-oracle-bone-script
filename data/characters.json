@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "count": 195,
+  "count": 201,
   "types": {
-    "人体动作": 22,
+    "人体动作": 23,
     "动植物": 12,
     "器物": 19,
-    "抽象": 103,
+    "抽象": 107,
     "数目": 16,
-    "自然现象": 23
+    "自然现象": 24
   },
   "chars": [
     {
@@ -78,6 +78,29 @@
         "动作"
       ],
       "path": "characters/人体动作/乘.md"
+    },
+    {
+      "id": "cong2",
+      "char": "从",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/cong2.png",
+      "scan": "人体动作/cong2-scan.png",
+      "tags": [
+        "从",
+        "动作"
+      ],
+      "path": "characters/人体动作/从.md"
     },
     {
       "id": "er2",
@@ -1455,6 +1478,52 @@
       "path": "characters/抽象/亟.md"
     },
     {
+      "id": "jie",
+      "char": "介",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/jie.png",
+      "scan": "抽象/jie-scan.png",
+      "tags": [
+        "介",
+        "抽象"
+      ],
+      "path": "characters/抽象/介.md"
+    },
+    {
+      "id": "jin",
+      "char": "今",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/jin.png",
+      "scan": "抽象/jin-scan.png",
+      "tags": [
+        "今",
+        "抽象"
+      ],
+      "path": "characters/抽象/今.md"
+    },
+    {
       "id": "kang",
       "char": "亢",
       "char_len": 1,
@@ -1476,6 +1545,29 @@
         "抽象"
       ],
       "path": "characters/抽象/亢.md"
+    },
+    {
+      "id": "ling",
+      "char": "令",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/ling.png",
+      "scan": "抽象/ling-scan.png",
+      "tags": [
+        "令",
+        "抽象"
+      ],
+      "path": "characters/抽象/令.md"
     },
     {
       "id": "ming2",
@@ -1913,6 +2005,29 @@
         "抽象"
       ],
       "path": "characters/抽象/亦.md"
+    },
+    {
+      "id": "yi5",
+      "char": "以",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/yi5.png",
+      "scan": "抽象/yi5-scan.png",
+      "tags": [
+        "以",
+        "抽象"
+      ],
+      "path": "characters/抽象/以.md"
     },
     {
       "id": "yu4",
@@ -4007,6 +4122,29 @@
         "白色"
       ],
       "path": "characters/自然现象/白.md"
+    },
+    {
+      "id": "bo",
+      "char": "亳",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "自然",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/bo.png",
+      "scan": "自然现象/bo-scan.png",
+      "tags": [
+        "亳",
+        "自然"
+      ],
+      "path": "characters/自然现象/亳.md"
     },
     {
       "id": "chuan",
