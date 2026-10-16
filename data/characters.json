@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "count": 58,
+  "count": 64,
   "types": {
-    "人体动作": 11,
+    "人体动作": 12,
     "动植物": 12,
     "器物": 9,
-    "抽象": 9,
+    "抽象": 12,
     "数目": 6,
-    "自然现象": 11
+    "自然现象": 13
   },
   "chars": [
     {
@@ -56,6 +56,29 @@
         "人体"
       ],
       "path": "characters/人体动作/人.md"
+    },
+    {
+      "id": "xing2",
+      "char": "行",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "行走",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/xing2.png",
+      "scan": "人体动作/xing2-scan.png",
+      "tags": [
+        "行",
+        "行走"
+      ],
+      "path": "characters/人体动作/行.md"
     },
     {
       "id": "mu2",
@@ -788,6 +811,29 @@
       "path": "characters/抽象/卜.md"
     },
     {
+      "id": "chu",
+      "char": "出",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "出入",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/chu.png",
+      "scan": "抽象/chu-scan.png",
+      "tags": [
+        "出",
+        "出入"
+      ],
+      "path": "characters/抽象/出.md"
+    },
+    {
       "id": "da",
       "char": "大",
       "char_len": 1,
@@ -811,6 +857,29 @@
       "path": "characters/抽象/大.md"
     },
     {
+      "id": "ru",
+      "char": "入",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "出入",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/ru.png",
+      "scan": "抽象/ru-scan.png",
+      "tags": [
+        "入",
+        "出入"
+      ],
+      "path": "characters/抽象/入.md"
+    },
+    {
       "id": "shang",
       "char": "上",
       "char_len": 1,
@@ -832,6 +901,29 @@
         "方位"
       ],
       "path": "characters/抽象/上.md"
+    },
+    {
+      "id": "wang2",
+      "char": "王",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "王权",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/wang2.png",
+      "scan": "抽象/wang2-scan.png",
+      "tags": [
+        "王",
+        "王权"
+      ],
+      "path": "characters/抽象/王.md"
     },
     {
       "id": "xia",
@@ -1111,6 +1203,29 @@
       "path": "characters/数目/一.md"
     },
     {
+      "id": "chuan",
+      "char": "川",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "河流",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/chuan.png",
+      "scan": "自然现象/chuan-scan.png",
+      "tags": [
+        "川",
+        "河流"
+      ],
+      "path": "characters/自然现象/川.md"
+    },
+    {
       "id": "ri",
       "char": "日",
       "char_len": 1,
@@ -1178,6 +1293,29 @@
         "农耕"
       ],
       "path": "characters/自然现象/田.md"
+    },
+    {
+      "id": "tu2",
+      "char": "土",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "土地",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/tu2.png",
+      "scan": "自然现象/tu2-scan.png",
+      "tags": [
+        "土",
+        "土地"
+      ],
+      "path": "characters/自然现象/土.md"
     },
     {
       "id": "yue",
