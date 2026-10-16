@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "count": 225,
+  "count": 231,
   "types": {
     "人体动作": 31,
     "动植物": 12,
     "器物": 19,
-    "抽象": 122,
+    "抽象": 128,
     "数目": 17,
     "自然现象": 24
   },
@@ -1455,7 +1455,30 @@
       "path": "characters/器物/戈.md"
     },
     {
-      "id": "bei",
+      "id": "bei2",
+      "char": "備",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/bei2.png",
+      "scan": "抽象/bei2-scan.png",
+      "tags": [
+        "備",
+        "抽象"
+      ],
+      "path": "characters/抽象/備.md"
+    },
+    {
+      "id": "bei3",
       "char": "北",
       "char_len": 1,
       "type": "抽象",
@@ -1469,8 +1492,8 @@
         "text": "public-domain",
         "annotations": "cc-by-4.0"
       },
-      "glyph": "抽象/bei.png",
-      "scan": "抽象/bei-scan.png",
+      "glyph": "抽象/bei3.png",
+      "scan": "抽象/bei3-scan.png",
       "tags": [
         "北",
         "方位"
@@ -2442,6 +2465,52 @@
         "抽象"
       ],
       "path": "characters/抽象/余.md"
+    },
+    {
+      "id": "yuan",
+      "char": "元",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/yuan.png",
+      "scan": "抽象/yuan-scan.png",
+      "tags": [
+        "元",
+        "抽象"
+      ],
+      "path": "characters/抽象/元.md"
+    },
+    {
+      "id": "yun2",
+      "char": "允",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/yun2.png",
+      "scan": "抽象/yun2-scan.png",
+      "tags": [
+        "允",
+        "抽象"
+      ],
+      "path": "characters/抽象/允.md"
     },
     {
       "id": "zha",
@@ -3963,6 +4032,29 @@
       "path": "characters/抽象/並.md"
     },
     {
+      "id": "cheng2",
+      "char": "偁",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/cheng2.png",
+      "scan": "抽象/cheng2-scan.png",
+      "tags": [
+        "偁",
+        "罕见"
+      ],
+      "path": "characters/抽象/偁.md"
+    },
+    {
       "id": "chou2",
       "char": "侜",
       "char_len": 1,
@@ -4170,6 +4262,29 @@
       "path": "characters/抽象/丮.md"
     },
     {
+      "id": "peng",
+      "char": "倗",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/peng.png",
+      "scan": "抽象/peng-scan.png",
+      "tags": [
+        "倗",
+        "罕见"
+      ],
+      "path": "characters/抽象/倗.md"
+    },
+    {
       "id": "shu",
       "char": "伓",
       "char_len": 1,
@@ -4214,6 +4329,29 @@
         "罕见"
       ],
       "path": "characters/抽象/乇.md"
+    },
+    {
+      "id": "ti",
+      "char": "倿",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/ti.png",
+      "scan": "抽象/ti-scan.png",
+      "tags": [
+        "倿",
+        "罕见"
+      ],
+      "path": "characters/抽象/倿.md"
     },
     {
       "id": "xi3",
