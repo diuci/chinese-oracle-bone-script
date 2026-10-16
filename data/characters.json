@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "count": 52,
+  "count": 58,
   "types": {
     "人体动作": 11,
     "动植物": 12,
-    "器物": 8,
-    "抽象": 6,
+    "器物": 9,
+    "抽象": 9,
     "数目": 6,
-    "自然现象": 9
+    "自然现象": 11
   },
   "chars": [
     {
@@ -695,6 +695,29 @@
       "path": "characters/器物/网.md"
     },
     {
+      "id": "yu3",
+      "char": "玉",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "玉器",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/yu3.png",
+      "scan": "器物/yu3-scan.png",
+      "tags": [
+        "玉",
+        "玉器"
+      ],
+      "path": "characters/器物/玉.md"
+    },
+    {
       "id": "zhou",
       "char": "舟",
       "char_len": 1,
@@ -740,6 +763,29 @@
         "兵器"
       ],
       "path": "characters/器物/戈.md"
+    },
+    {
+      "id": "bu",
+      "char": "卜",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "占卜",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/bu.png",
+      "scan": "抽象/bu-scan.png",
+      "tags": [
+        "卜",
+        "占卜"
+      ],
+      "path": "characters/抽象/卜.md"
     },
     {
       "id": "da",
@@ -857,6 +903,30 @@
       "path": "characters/抽象/多.md"
     },
     {
+      "id": "shi3",
+      "char": "示",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "祭祀",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/shi3.png",
+      "scan": "抽象/shi3-scan.png",
+      "tags": [
+        "示",
+        "祭祀",
+        "神主"
+      ],
+      "path": "characters/抽象/示.md"
+    },
+    {
       "id": "xiao",
       "char": "小",
       "char_len": 1,
@@ -878,6 +948,29 @@
         "形状"
       ],
       "path": "characters/抽象/小.md"
+    },
+    {
+      "id": "ji",
+      "char": "祭",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "祭祀",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/ji.png",
+      "scan": "抽象/ji-scan.png",
+      "tags": [
+        "祭",
+        "祭祀"
+      ],
+      "path": "characters/抽象/祭.md"
     },
     {
       "id": "bai",
@@ -1064,6 +1157,29 @@
       "path": "characters/自然现象/山.md"
     },
     {
+      "id": "tian2",
+      "char": "田",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "农耕",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/tian2.png",
+      "scan": "自然现象/tian2-scan.png",
+      "tags": [
+        "田",
+        "农耕"
+      ],
+      "path": "characters/自然现象/田.md"
+    },
+    {
       "id": "yue",
       "char": "月",
       "char_len": 1,
@@ -1108,6 +1224,30 @@
         "火焰"
       ],
       "path": "characters/自然现象/火.md"
+    },
+    {
+      "id": "lei",
+      "char": "雷",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "天象",
+      "difficulty": 2,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/lei.png",
+      "scan": "自然现象/lei-scan.png",
+      "tags": [
+        "雷",
+        "天象",
+        "雨"
+      ],
+      "path": "characters/自然现象/雷.md"
     },
     {
       "id": "shui",
