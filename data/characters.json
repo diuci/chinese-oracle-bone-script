@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "count": 243,
+  "count": 249,
   "types": {
-    "人体动作": 31,
+    "人体动作": 32,
     "动植物": 13,
-    "器物": 19,
-    "抽象": 137,
+    "器物": 21,
+    "抽象": 140,
     "数目": 19,
     "自然现象": 24
   },
@@ -55,6 +55,29 @@
         "鼻子"
       ],
       "path": "characters/人体动作/鼻.md"
+    },
+    {
+      "id": "bing3",
+      "char": "兵",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/bing3.png",
+      "scan": "人体动作/bing3-scan.png",
+      "tags": [
+        "兵",
+        "动作"
+      ],
+      "path": "characters/人体动作/兵.md"
     },
     {
       "id": "bu2",
@@ -1059,6 +1082,29 @@
       "path": "characters/器物/璧.md"
     },
     {
+      "id": "ce",
+      "char": "冊",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/ce.png",
+      "scan": "器物/ce-scan.png",
+      "tags": [
+        "冊",
+        "器物"
+      ],
+      "path": "characters/器物/冊.md"
+    },
+    {
       "id": "cong",
       "char": "琮",
       "char_len": 1,
@@ -1196,6 +1242,29 @@
         "铠甲"
       ],
       "path": "characters/器物/甲.md"
+    },
+    {
+      "id": "ju",
+      "char": "具",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/ju.png",
+      "scan": "器物/ju-scan.png",
+      "tags": [
+        "具",
+        "器物"
+      ],
+      "path": "characters/器物/具.md"
     },
     {
       "id": "lv",
@@ -1637,6 +1706,29 @@
         "形状"
       ],
       "path": "characters/抽象/大.md"
+    },
+    {
+      "id": "dian",
+      "char": "典",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/dian.png",
+      "scan": "抽象/dian-scan.png",
+      "tags": [
+        "典",
+        "抽象"
+      ],
+      "path": "characters/抽象/典.md"
     },
     {
       "id": "er3",
@@ -2097,6 +2189,29 @@
         "抽象"
       ],
       "path": "characters/抽象/乞.md"
+    },
+    {
+      "id": "qi5",
+      "char": "其",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/qi5.png",
+      "scan": "抽象/qi5-scan.png",
+      "tags": [
+        "其",
+        "抽象"
+      ],
+      "path": "characters/抽象/其.md"
     },
     {
       "id": "qie",
@@ -2672,6 +2787,29 @@
         "抽象"
       ],
       "path": "characters/抽象/允.md"
+    },
+    {
+      "id": "zai",
+      "char": "再",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/zai.png",
+      "scan": "抽象/zai-scan.png",
+      "tags": [
+        "再",
+        "抽象"
+      ],
+      "path": "characters/抽象/再.md"
     },
     {
       "id": "zha",
