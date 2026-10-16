@@ -1,15 +1,38 @@
 {
   "version": 1,
-  "count": 64,
+  "count": 70,
   "types": {
-    "人体动作": 12,
+    "人体动作": 14,
     "动植物": 12,
     "器物": 9,
-    "抽象": 12,
+    "抽象": 16,
     "数目": 6,
     "自然现象": 13
   },
   "chars": [
+    {
+      "id": "bu2",
+      "char": "步",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "行走",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/bu2.png",
+      "scan": "人体动作/bu2-scan.png",
+      "tags": [
+        "步",
+        "行走"
+      ],
+      "path": "characters/人体动作/步.md"
+    },
     {
       "id": "kou",
       "char": "口",
@@ -79,6 +102,29 @@
         "行走"
       ],
       "path": "characters/人体动作/行.md"
+    },
+    {
+      "id": "zhi",
+      "char": "止",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "停止",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/zhi.png",
+      "scan": "人体动作/zhi-scan.png",
+      "tags": [
+        "止",
+        "停止"
+      ],
+      "path": "characters/人体动作/止.md"
     },
     {
       "id": "mu2",
@@ -788,6 +834,29 @@
       "path": "characters/器物/戈.md"
     },
     {
+      "id": "bei",
+      "char": "北",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "方位",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/bei.png",
+      "scan": "抽象/bei-scan.png",
+      "tags": [
+        "北",
+        "方位"
+      ],
+      "path": "characters/抽象/北.md"
+    },
+    {
       "id": "bu",
       "char": "卜",
       "char_len": 1,
@@ -857,6 +926,52 @@
       "path": "characters/抽象/大.md"
     },
     {
+      "id": "nan",
+      "char": "南",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "方位",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/nan.png",
+      "scan": "抽象/nan-scan.png",
+      "tags": [
+        "南",
+        "方位"
+      ],
+      "path": "characters/抽象/南.md"
+    },
+    {
+      "id": "qu",
+      "char": "去",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "出入",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/qu.png",
+      "scan": "抽象/qu-scan.png",
+      "tags": [
+        "去",
+        "出入"
+      ],
+      "path": "characters/抽象/去.md"
+    },
+    {
       "id": "ru",
       "char": "入",
       "char_len": 1,
@@ -924,6 +1039,29 @@
         "王权"
       ],
       "path": "characters/抽象/王.md"
+    },
+    {
+      "id": "xi",
+      "char": "西",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "方位",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/xi.png",
+      "scan": "抽象/xi-scan.png",
+      "tags": [
+        "西",
+        "方位"
+      ],
+      "path": "characters/抽象/西.md"
     },
     {
       "id": "xia",
