@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "count": 249,
+  "count": 255,
   "types": {
     "人体动作": 32,
     "动植物": 13,
-    "器物": 21,
-    "抽象": 140,
+    "器物": 22,
+    "抽象": 145,
     "数目": 19,
     "自然现象": 24
   },
@@ -1547,6 +1547,29 @@
       "path": "characters/器物/戈.md"
     },
     {
+      "id": "zhou2",
+      "char": "冑",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/zhou.png",
+      "scan": "器物/zhou-scan.png",
+      "tags": [
+        "冑",
+        "罕见"
+      ],
+      "path": "characters/器物/冑.md"
+    },
+    {
       "id": "bei2",
       "char": "備",
       "char_len": 1,
@@ -1775,6 +1798,29 @@
         "否定"
       ],
       "path": "characters/抽象/非.md"
+    },
+    {
+      "id": "fen",
+      "char": "分",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/fen.png",
+      "scan": "抽象/fen-scan.png",
+      "tags": [
+        "分",
+        "抽象"
+      ],
+      "path": "characters/抽象/分.md"
     },
     {
       "id": "gen",
@@ -2258,6 +2304,29 @@
         "出入"
       ],
       "path": "characters/抽象/去.md"
+    },
+    {
+      "id": "re",
+      "char": "刈",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/re.png",
+      "scan": "抽象/re-scan.png",
+      "tags": [
+        "刈",
+        "抽象"
+      ],
+      "path": "characters/抽象/刈.md"
     },
     {
       "id": "ru",
@@ -4492,6 +4561,52 @@
       "path": "characters/抽象/祭.md"
     },
     {
+      "id": "jiao",
+      "char": "冓",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/jiao.png",
+      "scan": "抽象/jiao-scan.png",
+      "tags": [
+        "冓",
+        "罕见"
+      ],
+      "path": "characters/抽象/冓.md"
+    },
+    {
+      "id": "jiong",
+      "char": "冏",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/jiong.png",
+      "scan": "抽象/jiong-scan.png",
+      "tags": [
+        "冏",
+        "罕见"
+      ],
+      "path": "characters/抽象/冏.md"
+    },
+    {
       "id": "jiu",
       "char": "丩",
       "char_len": 1,
@@ -4605,6 +4720,29 @@
         "罕见"
       ],
       "path": "characters/抽象/倗.md"
+    },
+    {
+      "id": "qing",
+      "char": "冟",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/qing.png",
+      "scan": "抽象/qing-scan.png",
+      "tags": [
+        "冟",
+        "罕见"
+      ],
+      "path": "characters/抽象/冟.md"
     },
     {
       "id": "shu",
