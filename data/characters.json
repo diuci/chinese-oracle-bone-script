@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "count": 237,
+  "count": 243,
   "types": {
     "人体动作": 31,
-    "动植物": 12,
+    "动植物": 13,
     "器物": 19,
-    "抽象": 134,
-    "数目": 17,
+    "抽象": 137,
+    "数目": 19,
     "自然现象": 24
   },
   "chars": [
@@ -967,6 +967,29 @@
       "path": "characters/动植物/豕.md"
     },
     {
+      "id": "si",
+      "char": "兕",
+      "char_len": 1,
+      "type": "动植物",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "动植物/si.png",
+      "scan": "动植物/si-scan.png",
+      "tags": [
+        "兕",
+        "罕见"
+      ],
+      "path": "characters/动植物/兕.md"
+    },
+    {
       "id": "tu",
       "char": "兔",
       "char_len": 1,
@@ -1683,6 +1706,52 @@
         "抽象"
       ],
       "path": "characters/抽象/亘.md"
+    },
+    {
+      "id": "gong3",
+      "char": "公",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/gong3.png",
+      "scan": "抽象/gong3-scan.png",
+      "tags": [
+        "公",
+        "抽象"
+      ],
+      "path": "characters/抽象/公.md"
+    },
+    {
+      "id": "gong4",
+      "char": "共",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/gong4.png",
+      "scan": "抽象/gong4-scan.png",
+      "tags": [
+        "共",
+        "抽象"
+      ],
+      "path": "characters/抽象/共.md"
     },
     {
       "id": "he2",
@@ -4492,6 +4561,29 @@
       "path": "characters/抽象/係.md"
     },
     {
+      "id": "xi5",
+      "char": "兮",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/xi5.png",
+      "scan": "抽象/xi5-scan.png",
+      "tags": [
+        "兮",
+        "罕见"
+      ],
+      "path": "characters/抽象/兮.md"
+    },
+    {
       "id": "xiong2",
       "char": "兇",
       "char_len": 1,
@@ -4536,6 +4628,29 @@
         "罕见"
       ],
       "path": "characters/抽象/亞.md"
+    },
+    {
+      "id": "ba",
+      "char": "八",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/ba.png",
+      "scan": "数目/ba-scan.png",
+      "tags": [
+        "八",
+        "数目"
+      ],
+      "path": "characters/数目/八.md"
     },
     {
       "id": "bai",
@@ -4697,6 +4812,29 @@
         "数目"
       ],
       "path": "characters/数目/九.md"
+    },
+    {
+      "id": "liu",
+      "char": "六",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/liu.png",
+      "scan": "数目/liu-scan.png",
+      "tags": [
+        "六",
+        "数目"
+      ],
+      "path": "characters/数目/六.md"
     },
     {
       "id": "qi2",
