@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "count": 160,
+  "count": 165,
   "types": {
     "人体动作": 21,
     "动植物": 12,
     "器物": 19,
-    "抽象": 83,
-    "数目": 6,
+    "抽象": 84,
+    "数目": 10,
     "自然现象": 19
   },
   "chars": [
@@ -1430,6 +1430,29 @@
         "方位"
       ],
       "path": "characters/抽象/南.md"
+    },
+    {
+      "id": "qie",
+      "char": "且",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/qie.png",
+      "scan": "抽象/qie-scan.png",
+      "tags": [
+        "且",
+        "抽象"
+      ],
+      "path": "characters/抽象/且.md"
     },
     {
       "id": "qu",
@@ -3158,6 +3181,52 @@
       "path": "characters/数目/百.md"
     },
     {
+      "id": "chou",
+      "char": "丑",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/chou.png",
+      "scan": "数目/chou-scan.png",
+      "tags": [
+        "丑",
+        "数目"
+      ],
+      "path": "characters/数目/丑.md"
+    },
+    {
+      "id": "ding2",
+      "char": "丁",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/ding2.png",
+      "scan": "数目/ding2-scan.png",
+      "tags": [
+        "丁",
+        "数目"
+      ],
+      "path": "characters/数目/丁.md"
+    },
+    {
       "id": "er",
       "char": "二",
       "char_len": 1,
@@ -3179,6 +3248,29 @@
         "数"
       ],
       "path": "characters/数目/二.md"
+    },
+    {
+      "id": "qi2",
+      "char": "七",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/qi2.png",
+      "scan": "数目/qi2-scan.png",
+      "tags": [
+        "七",
+        "数目"
+      ],
+      "path": "characters/数目/七.md"
     },
     {
       "id": "qian",
@@ -3248,6 +3340,29 @@
         "数"
       ],
       "path": "characters/数目/十.md"
+    },
+    {
+      "id": "wan",
+      "char": "万",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/wan.png",
+      "scan": "数目/wan-scan.png",
+      "tags": [
+        "万",
+        "数目"
+      ],
+      "path": "characters/数目/万.md"
     },
     {
       "id": "yi",
