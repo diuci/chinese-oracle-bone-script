@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "count": 207,
+  "count": 213,
   "types": {
-    "人体动作": 26,
+    "人体动作": 27,
     "动植物": 12,
     "器物": 19,
-    "抽象": 109,
+    "抽象": 114,
     "数目": 17,
     "自然现象": 24
   },
@@ -378,6 +378,29 @@
         "行走"
       ],
       "path": "characters/人体动作/行.md"
+    },
+    {
+      "id": "xiu",
+      "char": "休",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/xiu.png",
+      "scan": "人体动作/xiu-scan.png",
+      "tags": [
+        "休",
+        "动作"
+      ],
+      "path": "characters/人体动作/休.md"
     },
     {
       "id": "zhi",
@@ -1363,6 +1386,29 @@
       "path": "characters/抽象/北.md"
     },
     {
+      "id": "bo2",
+      "char": "伯",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/bo2.png",
+      "scan": "抽象/bo2-scan.png",
+      "tags": [
+        "伯",
+        "抽象"
+      ],
+      "path": "characters/抽象/伯.md"
+    },
+    {
       "id": "bu",
       "char": "卜",
       "char_len": 1,
@@ -1499,6 +1545,29 @@
         "抽象"
       ],
       "path": "characters/抽象/亘.md"
+    },
+    {
+      "id": "he2",
+      "char": "何",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/he2.png",
+      "scan": "抽象/he2-scan.png",
+      "tags": [
+        "何",
+        "抽象"
+      ],
+      "path": "characters/抽象/何.md"
     },
     {
       "id": "hu",
@@ -2122,6 +2191,29 @@
       "path": "characters/抽象/伊.md"
     },
     {
+      "id": "you",
+      "char": "佑",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/you.png",
+      "scan": "抽象/you-scan.png",
+      "tags": [
+        "佑",
+        "抽象"
+      ],
+      "path": "characters/抽象/佑.md"
+    },
+    {
       "id": "yu4",
       "char": "于",
       "char_len": 1,
@@ -2143,6 +2235,29 @@
         "抽象"
       ],
       "path": "characters/抽象/于.md"
+    },
+    {
+      "id": "yu5",
+      "char": "余",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/yu5.png",
+      "scan": "抽象/yu5-scan.png",
+      "tags": [
+        "余",
+        "抽象"
+      ],
+      "path": "characters/抽象/余.md"
     },
     {
       "id": "zha",
@@ -3800,6 +3915,29 @@
         "罕见"
       ],
       "path": "characters/抽象/丮.md"
+    },
+    {
+      "id": "shu",
+      "char": "伓",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/shu.png",
+      "scan": "抽象/shu-scan.png",
+      "tags": [
+        "伓",
+        "罕见"
+      ],
+      "path": "characters/抽象/伓.md"
     },
     {
       "id": "tao2",
