@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "count": 171,
+  "count": 177,
   "types": {
     "人体动作": 21,
     "动植物": 12,
     "器物": 19,
-    "抽象": 88,
+    "抽象": 93,
     "数目": 11,
-    "自然现象": 20
+    "自然现象": 21
   },
   "chars": [
     {
@@ -1363,6 +1363,29 @@
       "path": "characters/抽象/非.md"
     },
     {
+      "id": "hu",
+      "char": "乎",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/hu.png",
+      "scan": "抽象/hu-scan.png",
+      "tags": [
+        "乎",
+        "抽象"
+      ],
+      "path": "characters/抽象/乎.md"
+    },
+    {
       "id": "ming2",
       "char": "名",
       "char_len": 1,
@@ -1407,6 +1430,29 @@
         "否定"
       ],
       "path": "characters/抽象/莫.md"
+    },
+    {
+      "id": "nai",
+      "char": "乃",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/nai.png",
+      "scan": "抽象/nai-scan.png",
+      "tags": [
+        "乃",
+        "抽象"
+      ],
+      "path": "characters/抽象/乃.md"
     },
     {
       "id": "nan",
@@ -1683,6 +1729,52 @@
         "言语"
       ],
       "path": "characters/抽象/言.md"
+    },
+    {
+      "id": "zha",
+      "char": "乍",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/zha.png",
+      "scan": "抽象/zha-scan.png",
+      "tags": [
+        "乍",
+        "抽象"
+      ],
+      "path": "characters/抽象/乍.md"
+    },
+    {
+      "id": "zhi2",
+      "char": "之",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/zhi2.png",
+      "scan": "抽象/zhi2-scan.png",
+      "tags": [
+        "之",
+        "抽象"
+      ],
+      "path": "characters/抽象/之.md"
     },
     {
       "id": "zhong",
@@ -3250,6 +3342,29 @@
       "path": "characters/抽象/丮.md"
     },
     {
+      "id": "tao2",
+      "char": "乇",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/tao2.png",
+      "scan": "抽象/tao2-scan.png",
+      "tags": [
+        "乇",
+        "罕见"
+      ],
+      "path": "characters/抽象/乇.md"
+    },
+    {
       "id": "bai",
       "char": "百",
       "char_len": 1,
@@ -3547,6 +3662,29 @@
         "河流"
       ],
       "path": "characters/自然现象/川.md"
+    },
+    {
+      "id": "dan",
+      "char": "丹",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "自然",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/dan.png",
+      "scan": "自然现象/dan-scan.png",
+      "tags": [
+        "丹",
+        "自然"
+      ],
+      "path": "characters/自然现象/丹.md"
     },
     {
       "id": "guang",
