@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "count": 87,
+  "count": 89,
   "types": {
     "人体动作": 20,
     "动植物": 12,
-    "器物": 13,
+    "器物": 15,
     "抽象": 22,
     "数目": 6,
     "自然现象": 14
@@ -876,6 +876,29 @@
       "path": "characters/器物/甲.md"
     },
     {
+      "id": "lv",
+      "char": "履",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "鞋履",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/lv.png",
+      "scan": "器物/lv-scan.png",
+      "tags": [
+        "履",
+        "鞋"
+      ],
+      "path": "characters/器物/履.md"
+    },
+    {
       "id": "min",
       "char": "皿",
       "char_len": 1,
@@ -920,6 +943,29 @@
         "刀刃"
       ],
       "path": "characters/器物/刃.md"
+    },
+    {
+      "id": "yi2",
+      "char": "衣",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "衣服",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/yi2.png",
+      "scan": "器物/yi2-scan.png",
+      "tags": [
+        "衣",
+        "衣服"
+      ],
+      "path": "characters/器物/衣.md"
     },
     {
       "id": "che",
