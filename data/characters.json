@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "count": 213,
+  "count": 219,
   "types": {
-    "人体动作": 27,
+    "人体动作": 29,
     "动植物": 12,
     "器物": 19,
-    "抽象": 114,
+    "抽象": 118,
     "数目": 17,
     "自然现象": 24
   },
@@ -171,6 +171,29 @@
         "器官"
       ],
       "path": "characters/人体动作/口.md"
+    },
+    {
+      "id": "lai",
+      "char": "来",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/lai.png",
+      "scan": "人体动作/lai-scan.png",
+      "tags": [
+        "来",
+        "动作"
+      ],
+      "path": "characters/人体动作/来.md"
     },
     {
       "id": "li",
@@ -424,6 +447,29 @@
         "停止"
       ],
       "path": "characters/人体动作/止.md"
+    },
+    {
+      "id": "zuo2",
+      "char": "作",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/zuo2.png",
+      "scan": "人体动作/zuo2-scan.png",
+      "tags": [
+        "作",
+        "动作"
+      ],
+      "path": "characters/人体动作/作.md"
     },
     {
       "id": "mu2",
@@ -1662,6 +1708,29 @@
       "path": "characters/抽象/今.md"
     },
     {
+      "id": "kan",
+      "char": "侃",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/kan.png",
+      "scan": "抽象/kan-scan.png",
+      "tags": [
+        "侃",
+        "抽象"
+      ],
+      "path": "characters/抽象/侃.md"
+    },
+    {
       "id": "kang",
       "char": "亢",
       "char_len": 1,
@@ -1938,6 +2007,29 @@
       "path": "characters/抽象/事.md"
     },
     {
+      "id": "shi6",
+      "char": "使",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/shi6.png",
+      "scan": "抽象/shi6-scan.png",
+      "tags": [
+        "使",
+        "抽象"
+      ],
+      "path": "characters/抽象/使.md"
+    },
+    {
       "id": "wang2",
       "char": "王",
       "char_len": 1,
@@ -2212,6 +2304,29 @@
         "抽象"
       ],
       "path": "characters/抽象/佑.md"
+    },
+    {
+      "id": "you2",
+      "char": "侑",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/you2.png",
+      "scan": "抽象/you2-scan.png",
+      "tags": [
+        "侑",
+        "抽象"
+      ],
+      "path": "characters/抽象/侑.md"
     },
     {
       "id": "yu4",
@@ -3892,6 +4007,29 @@
         "罕见"
       ],
       "path": "characters/抽象/亅.md"
+    },
+    {
+      "id": "lun",
+      "char": "侖",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/lun.png",
+      "scan": "抽象/lun-scan.png",
+      "tags": [
+        "侖",
+        "罕见"
+      ],
+      "path": "characters/抽象/侖.md"
     },
     {
       "id": "nv2",
