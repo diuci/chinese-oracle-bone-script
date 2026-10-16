@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "count": 231,
+  "count": 237,
   "types": {
     "人体动作": 31,
     "动植物": 12,
     "器物": 19,
-    "抽象": 128,
+    "抽象": 134,
     "数目": 17,
     "自然现象": 24
   },
@@ -1616,6 +1616,29 @@
       "path": "characters/抽象/大.md"
     },
     {
+      "id": "er3",
+      "char": "兒",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/er3.png",
+      "scan": "抽象/er3-scan.png",
+      "tags": [
+        "兒",
+        "抽象"
+      ],
+      "path": "characters/抽象/兒.md"
+    },
+    {
       "id": "fei",
       "char": "非",
       "char_len": 1,
@@ -1844,6 +1867,29 @@
         "抽象"
       ],
       "path": "characters/抽象/亢.md"
+    },
+    {
+      "id": "ke",
+      "char": "克",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/ke.png",
+      "scan": "抽象/ke-scan.png",
+      "tags": [
+        "克",
+        "抽象"
+      ],
+      "path": "characters/抽象/克.md"
     },
     {
       "id": "ling",
@@ -2281,6 +2327,52 @@
         "方位"
       ],
       "path": "characters/抽象/下.md"
+    },
+    {
+      "id": "xian",
+      "char": "先",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/xian.png",
+      "scan": "抽象/xian-scan.png",
+      "tags": [
+        "先",
+        "抽象"
+      ],
+      "path": "characters/抽象/先.md"
+    },
+    {
+      "id": "xiong",
+      "char": "兄",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/xiong.png",
+      "scan": "抽象/xiong-scan.png",
+      "tags": [
+        "兄",
+        "抽象"
+      ],
+      "path": "characters/抽象/兄.md"
     },
     {
       "id": "yan",
@@ -4078,6 +4170,29 @@
       "path": "characters/抽象/侜.md"
     },
     {
+      "id": "dui",
+      "char": "兌",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/dui.png",
+      "scan": "抽象/dui-scan.png",
+      "tags": [
+        "兌",
+        "罕见"
+      ],
+      "path": "characters/抽象/兌.md"
+    },
+    {
       "id": "ge2",
       "char": "丯",
       "char_len": 1,
@@ -4375,6 +4490,29 @@
         "罕见"
       ],
       "path": "characters/抽象/係.md"
+    },
+    {
+      "id": "xiong2",
+      "char": "兇",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/xiong2.png",
+      "scan": "抽象/xiong2-scan.png",
+      "tags": [
+        "兇",
+        "罕见"
+      ],
+      "path": "characters/抽象/兇.md"
     },
     {
       "id": "ya",
