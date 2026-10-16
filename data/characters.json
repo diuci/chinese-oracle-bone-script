@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "count": 95,
+  "count": 101,
   "types": {
     "人体动作": 21,
     "动植物": 12,
-    "器物": 15,
+    "器物": 18,
     "抽象": 25,
     "数目": 6,
-    "自然现象": 16
+    "自然现象": 19
   },
   "chars": [
     {
@@ -783,6 +783,52 @@
       "path": "characters/动植物/竹.md"
     },
     {
+      "id": "bi2",
+      "char": "璧",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "玉器",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/bi2.png",
+      "scan": "器物/bi2-scan.png",
+      "tags": [
+        "璧",
+        "玉璧"
+      ],
+      "path": "characters/器物/璧.md"
+    },
+    {
+      "id": "cong",
+      "char": "琮",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "玉器",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/cong.png",
+      "scan": "器物/cong-scan.png",
+      "tags": [
+        "琮",
+        "玉琮"
+      ],
+      "path": "characters/器物/琮.md"
+    },
+    {
       "id": "dao",
       "char": "刀",
       "char_len": 1,
@@ -966,6 +1012,29 @@
         "刀刃"
       ],
       "path": "characters/器物/刃.md"
+    },
+    {
+      "id": "tao",
+      "char": "陶",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "陶器",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/tao.png",
+      "scan": "器物/tao-scan.png",
+      "tags": [
+        "陶",
+        "陶器"
+      ],
+      "path": "characters/器物/陶.md"
     },
     {
       "id": "yi2",
@@ -1847,6 +1916,29 @@
       "path": "characters/数目/一.md"
     },
     {
+      "id": "bai2",
+      "char": "白",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "颜色",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/bai2.png",
+      "scan": "自然现象/bai2-scan.png",
+      "tags": [
+        "白",
+        "白色"
+      ],
+      "path": "characters/自然现象/白.md"
+    },
+    {
       "id": "chuan",
       "char": "川",
       "char_len": 1,
@@ -1891,6 +1983,29 @@
         "光芒"
       ],
       "path": "characters/自然现象/光.md"
+    },
+    {
+      "id": "hei",
+      "char": "黑",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "颜色",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/hei.png",
+      "scan": "自然现象/hei-scan.png",
+      "tags": [
+        "黑",
+        "黑色"
+      ],
+      "path": "characters/自然现象/黑.md"
     },
     {
       "id": "ming",
@@ -1983,6 +2098,29 @@
         "地形"
       ],
       "path": "characters/自然现象/山.md"
+    },
+    {
+      "id": "shi4",
+      "char": "石",
+      "char_len": 1,
+      "type": "自然现象",
+      "subtype": "岩石",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "自然现象/shi4.png",
+      "scan": "自然现象/shi4-scan.png",
+      "tags": [
+        "石",
+        "石头"
+      ],
+      "path": "characters/自然现象/石.md"
     },
     {
       "id": "tian2",
