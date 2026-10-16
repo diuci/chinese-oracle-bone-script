@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "count": 82,
+  "count": 87,
   "types": {
-    "人体动作": 19,
+    "人体动作": 20,
     "动植物": 12,
-    "器物": 9,
+    "器物": 13,
     "抽象": 22,
     "数目": 6,
     "自然现象": 14
@@ -102,6 +102,29 @@
         "器官"
       ],
       "path": "characters/人体动作/口.md"
+    },
+    {
+      "id": "li",
+      "char": "力",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "力量",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/li.png",
+      "scan": "人体动作/li-scan.png",
+      "tags": [
+        "力",
+        "力量"
+      ],
+      "path": "characters/人体动作/力.md"
     },
     {
       "id": "ren",
@@ -761,6 +784,52 @@
       "path": "characters/器物/刀.md"
     },
     {
+      "id": "dun",
+      "char": "盾",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "兵器",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/dun.png",
+      "scan": "器物/dun-scan.png",
+      "tags": [
+        "盾",
+        "盾牌"
+      ],
+      "path": "characters/器物/盾.md"
+    },
+    {
+      "id": "fu2",
+      "char": "斧",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "工具",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/fu2.png",
+      "scan": "器物/fu2-scan.png",
+      "tags": [
+        "斧",
+        "斧头"
+      ],
+      "path": "characters/器物/斧.md"
+    },
+    {
       "id": "gong",
       "char": "弓",
       "char_len": 1,
@@ -784,6 +853,29 @@
       "path": "characters/器物/弓.md"
     },
     {
+      "id": "jia",
+      "char": "甲",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "甲胄",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/jia.png",
+      "scan": "器物/jia-scan.png",
+      "tags": [
+        "甲",
+        "铠甲"
+      ],
+      "path": "characters/器物/甲.md"
+    },
+    {
       "id": "min",
       "char": "皿",
       "char_len": 1,
@@ -805,6 +897,29 @@
         "器皿"
       ],
       "path": "characters/器物/皿.md"
+    },
+    {
+      "id": "ren2",
+      "char": "刃",
+      "char_len": 1,
+      "type": "器物",
+      "subtype": "兵器",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "器物/ren2.png",
+      "scan": "器物/ren2-scan.png",
+      "tags": [
+        "刃",
+        "刀刃"
+      ],
+      "path": "characters/器物/刃.md"
     },
     {
       "id": "che",
