@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "count": 201,
+  "count": 207,
   "types": {
-    "人体动作": 23,
+    "人体动作": 26,
     "动植物": 12,
     "器物": 19,
-    "抽象": 107,
-    "数目": 16,
+    "抽象": 109,
+    "数目": 17,
     "自然现象": 24
   },
   "chars": [
@@ -126,6 +126,29 @@
       "path": "characters/人体动作/耳.md"
     },
     {
+      "id": "fa",
+      "char": "伐",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/fa.png",
+      "scan": "人体动作/fa-scan.png",
+      "tags": [
+        "伐",
+        "动作"
+      ],
+      "path": "characters/人体动作/伐.md"
+    },
+    {
       "id": "kou",
       "char": "口",
       "char_len": 1,
@@ -173,6 +196,29 @@
       "path": "characters/人体动作/力.md"
     },
     {
+      "id": "qi4",
+      "char": "企",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/qi4.png",
+      "scan": "人体动作/qi4-scan.png",
+      "tags": [
+        "企",
+        "动作"
+      ],
+      "path": "characters/人体动作/企.md"
+    },
+    {
       "id": "ren",
       "char": "人",
       "char_len": 1,
@@ -194,6 +240,29 @@
         "人体"
       ],
       "path": "characters/人体动作/人.md"
+    },
+    {
+      "id": "ren3",
+      "char": "任",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/ren3.png",
+      "scan": "人体动作/ren3-scan.png",
+      "tags": [
+        "任",
+        "动作"
+      ],
+      "path": "characters/人体动作/任.md"
     },
     {
       "id": "rou",
@@ -2030,6 +2099,29 @@
       "path": "characters/抽象/以.md"
     },
     {
+      "id": "yi6",
+      "char": "伊",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/yi6.png",
+      "scan": "抽象/yi6-scan.png",
+      "tags": [
+        "伊",
+        "抽象"
+      ],
+      "path": "characters/抽象/伊.md"
+    },
+    {
       "id": "yu4",
       "char": "于",
       "char_len": 1,
@@ -3595,6 +3687,29 @@
       "path": "characters/抽象/丯.md"
     },
     {
+      "id": "geng",
+      "char": "伇",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/geng.png",
+      "scan": "抽象/geng-scan.png",
+      "tags": [
+        "伇",
+        "罕见"
+      ],
+      "path": "characters/抽象/伇.md"
+    },
+    {
       "id": "ji3",
       "char": "祭",
       "char_len": 1,
@@ -4076,6 +4191,29 @@
         "数目"
       ],
       "path": "characters/数目/乙.md"
+    },
+    {
+      "id": "zhong2",
+      "char": "仲",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/zhong2.png",
+      "scan": "数目/zhong2-scan.png",
+      "tags": [
+        "仲",
+        "数目"
+      ],
+      "path": "characters/数目/仲.md"
     },
     {
       "id": "tian3",
