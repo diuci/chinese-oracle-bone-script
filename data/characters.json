@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "count": 177,
+  "count": 183,
   "types": {
-    "人体动作": 21,
+    "人体动作": 22,
     "动植物": 12,
     "器物": 19,
-    "抽象": 93,
-    "数目": 11,
+    "抽象": 96,
+    "数目": 13,
     "自然现象": 21
   },
   "chars": [
@@ -55,6 +55,29 @@
         "行走"
       ],
       "path": "characters/人体动作/步.md"
+    },
+    {
+      "id": "cheng",
+      "char": "乘",
+      "char_len": 1,
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "人体动作/cheng.png",
+      "scan": "人体动作/cheng-scan.png",
+      "tags": [
+        "乘",
+        "动作"
+      ],
+      "path": "characters/人体动作/乘.md"
     },
     {
       "id": "er2",
@@ -1478,6 +1501,29 @@
       "path": "characters/抽象/南.md"
     },
     {
+      "id": "qi3",
+      "char": "乞",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/qi3.png",
+      "scan": "抽象/qi3-scan.png",
+      "tags": [
+        "乞",
+        "抽象"
+      ],
+      "path": "characters/抽象/乞.md"
+    },
+    {
       "id": "qie",
       "char": "且",
       "char_len": 1,
@@ -1568,6 +1614,29 @@
         "方位"
       ],
       "path": "characters/抽象/上.md"
+    },
+    {
+      "id": "shi5",
+      "char": "事",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/shi5.png",
+      "scan": "抽象/shi5-scan.png",
+      "tags": [
+        "事",
+        "抽象"
+      ],
+      "path": "characters/抽象/事.md"
     },
     {
       "id": "wang2",
@@ -3319,6 +3388,29 @@
       "path": "characters/抽象/丩.md"
     },
     {
+      "id": "jue2",
+      "char": "亅",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/jue2.png",
+      "scan": "抽象/jue2-scan.png",
+      "tags": [
+        "亅",
+        "罕见"
+      ],
+      "path": "characters/抽象/亅.md"
+    },
+    {
       "id": "nv2",
       "char": "丮",
       "char_len": 1,
@@ -3480,6 +3572,29 @@
       "path": "characters/数目/二.md"
     },
     {
+      "id": "jiu2",
+      "char": "九",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/jiu2.png",
+      "scan": "数目/jiu2-scan.png",
+      "tags": [
+        "九",
+        "数目"
+      ],
+      "path": "characters/数目/九.md"
+    },
+    {
       "id": "qi2",
       "char": "七",
       "char_len": 1,
@@ -3616,6 +3731,29 @@
         "数"
       ],
       "path": "characters/数目/一.md"
+    },
+    {
+      "id": "yi3",
+      "char": "乙",
+      "char_len": 1,
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "数目/yi3.png",
+      "scan": "数目/yi3-scan.png",
+      "tags": [
+        "乙",
+        "数目"
+      ],
+      "path": "characters/数目/乙.md"
     },
     {
       "id": "bai2",
