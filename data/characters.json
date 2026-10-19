@@ -31,7 +31,9 @@
         "保",
         "动作"
       ],
-      "path": "characters/人体动作/保.md"
+      "path": "characters/人体动作/保.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 9
     },
     {
       "id": "bi",
@@ -54,7 +56,9 @@
         "鼻",
         "鼻子"
       ],
-      "path": "characters/人体动作/鼻.md"
+      "path": "characters/人体动作/鼻.md",
+      "glyph_fingerprint": "df96d21544664a5b",
+      "stroke_count": 14
     },
     {
       "id": "bing3",
@@ -77,7 +81,9 @@
         "兵",
         "动作"
       ],
-      "path": "characters/人体动作/兵.md"
+      "path": "characters/人体动作/兵.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "bu2",
@@ -100,7 +106,9 @@
         "步",
         "行走"
       ],
-      "path": "characters/人体动作/步.md"
+      "path": "characters/人体动作/步.md",
+      "glyph_fingerprint": "2bd709bf37d62cd8",
+      "stroke_count": 7
     },
     {
       "id": "cheng",
@@ -123,7 +131,9 @@
         "乘",
         "动作"
       ],
-      "path": "characters/人体动作/乘.md"
+      "path": "characters/人体动作/乘.md",
+      "glyph_fingerprint": "fb60f9ba77f12aea",
+      "stroke_count": 10
     },
     {
       "id": "cong2",
@@ -146,7 +156,9 @@
         "从",
         "动作"
       ],
-      "path": "characters/人体动作/从.md"
+      "path": "characters/人体动作/从.md",
+      "glyph_fingerprint": "aeb003c8397119e1",
+      "stroke_count": 4
     },
     {
       "id": "er2",
@@ -169,7 +181,9 @@
         "耳",
         "耳朵"
       ],
-      "path": "characters/人体动作/耳.md"
+      "path": "characters/人体动作/耳.md",
+      "glyph_fingerprint": "7d64af71c0f987c4",
+      "stroke_count": 6
     },
     {
       "id": "fa",
@@ -192,7 +206,9 @@
         "伐",
         "动作"
       ],
-      "path": "characters/人体动作/伐.md"
+      "path": "characters/人体动作/伐.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "fu4",
@@ -215,7 +231,9 @@
         "俘",
         "动作"
       ],
-      "path": "characters/人体动作/俘.md"
+      "path": "characters/人体动作/俘.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 9
     },
     {
       "id": "kou",
@@ -239,7 +257,9 @@
         "人体",
         "器官"
       ],
-      "path": "characters/人体动作/口.md"
+      "path": "characters/人体动作/口.md",
+      "glyph_fingerprint": "9c1e14db7f20e5a0",
+      "stroke_count": 3
     },
     {
       "id": "lai",
@@ -262,7 +282,9 @@
         "来",
         "动作"
       ],
-      "path": "characters/人体动作/来.md"
+      "path": "characters/人体动作/来.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "li",
@@ -285,7 +307,9 @@
         "力",
         "力量"
       ],
-      "path": "characters/人体动作/力.md"
+      "path": "characters/人体动作/力.md",
+      "glyph_fingerprint": "bc98b154cdf58f94",
+      "stroke_count": 2
     },
     {
       "id": "qi4",
@@ -308,7 +332,9 @@
         "企",
         "动作"
       ],
-      "path": "characters/人体动作/企.md"
+      "path": "characters/人体动作/企.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "ren",
@@ -331,7 +357,9 @@
         "人",
         "人体"
       ],
-      "path": "characters/人体动作/人.md"
+      "path": "characters/人体动作/人.md",
+      "glyph_fingerprint": "3e9abbbdc16b36a7",
+      "stroke_count": 2
     },
     {
       "id": "ren3",
@@ -354,7 +382,9 @@
         "任",
         "动作"
       ],
-      "path": "characters/人体动作/任.md"
+      "path": "characters/人体动作/任.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "rou",
@@ -377,7 +407,9 @@
         "肉",
         "肉"
       ],
-      "path": "characters/人体动作/肉.md"
+      "path": "characters/人体动作/肉.md",
+      "glyph_fingerprint": "786cabef4f075066",
+      "stroke_count": 6
     },
     {
       "id": "she",
@@ -400,7 +432,9 @@
         "舌",
         "舌头"
       ],
-      "path": "characters/人体动作/舌.md"
+      "path": "characters/人体动作/舌.md",
+      "glyph_fingerprint": "00bdc602d2555818",
+      "stroke_count": 6
     },
     {
       "id": "shen",
@@ -423,7 +457,9 @@
         "身",
         "身体"
       ],
-      "path": "characters/人体动作/身.md"
+      "path": "characters/人体动作/身.md",
+      "glyph_fingerprint": "de109133bca71307",
+      "stroke_count": 7
     },
     {
       "id": "shou2",
@@ -446,7 +482,9 @@
         "首",
         "头"
       ],
-      "path": "characters/人体动作/首.md"
+      "path": "characters/人体动作/首.md",
+      "glyph_fingerprint": "8eeb2f3d8d83a66c",
+      "stroke_count": 9
     },
     {
       "id": "xing2",
@@ -469,7 +507,9 @@
         "行",
         "行走"
       ],
-      "path": "characters/人体动作/行.md"
+      "path": "characters/人体动作/行.md",
+      "glyph_fingerprint": "eb6af52867f8209a",
+      "stroke_count": 6
     },
     {
       "id": "xiu",
@@ -492,7 +532,9 @@
         "休",
         "动作"
       ],
-      "path": "characters/人体动作/休.md"
+      "path": "characters/人体动作/休.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "zhi",
@@ -515,7 +557,9 @@
         "止",
         "停止"
       ],
-      "path": "characters/人体动作/止.md"
+      "path": "characters/人体动作/止.md",
+      "glyph_fingerprint": "d445176065e0f464",
+      "stroke_count": 4
     },
     {
       "id": "zuo2",
@@ -538,7 +582,9 @@
         "作",
         "动作"
       ],
-      "path": "characters/人体动作/作.md"
+      "path": "characters/人体动作/作.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "mu2",
@@ -561,7 +607,9 @@
         "眼睛",
         "人体"
       ],
-      "path": "characters/人体动作/目.md"
+      "path": "characters/人体动作/目.md",
+      "glyph_fingerprint": "e0225a3125a8a224",
+      "stroke_count": 5
     },
     {
       "id": "mu3",
@@ -585,7 +633,9 @@
         "称谓",
         "家庭"
       ],
-      "path": "characters/人体动作/母.md"
+      "path": "characters/人体动作/母.md",
+      "glyph_fingerprint": "434fd01eb8568e56",
+      "stroke_count": 5
     },
     {
       "id": "nv",
@@ -609,7 +659,9 @@
         "称谓",
         "性别"
       ],
-      "path": "characters/人体动作/女.md"
+      "path": "characters/人体动作/女.md",
+      "glyph_fingerprint": "ad00f2f3eeb6ac19",
+      "stroke_count": 3
     },
     {
       "id": "xin",
@@ -633,7 +685,9 @@
         "人体",
         "器官"
       ],
-      "path": "characters/人体动作/心.md"
+      "path": "characters/人体动作/心.md",
+      "glyph_fingerprint": "21f8211f1e60bddb",
+      "stroke_count": 4
     },
     {
       "id": "zi",
@@ -657,7 +711,9 @@
         "称谓",
         "后代"
       ],
-      "path": "characters/人体动作/子.md"
+      "path": "characters/人体动作/子.md",
+      "glyph_fingerprint": "86dddbc1c9e2df13",
+      "stroke_count": 3
     },
     {
       "id": "zou",
@@ -681,7 +737,9 @@
         "动作",
         "行走"
       ],
-      "path": "characters/人体动作/走.md"
+      "path": "characters/人体动作/走.md",
+      "glyph_fingerprint": "fc027901eee7b4b2",
+      "stroke_count": 7
     },
     {
       "id": "fu3",
@@ -705,7 +763,9 @@
         "称谓",
         "家庭"
       ],
-      "path": "characters/人体动作/父.md"
+      "path": "characters/人体动作/父.md",
+      "glyph_fingerprint": "57d171ea20abe2a1",
+      "stroke_count": 4
     },
     {
       "id": "shou",
@@ -728,7 +788,9 @@
         "手",
         "人体"
       ],
-      "path": "characters/人体动作/手.md"
+      "path": "characters/人体动作/手.md",
+      "glyph_fingerprint": "de9f0302ca872d23",
+      "stroke_count": 4
     },
     {
       "id": "zu",
@@ -752,7 +814,9 @@
         "人体",
         "脚"
       ],
-      "path": "characters/人体动作/足.md"
+      "path": "characters/人体动作/足.md",
+      "glyph_fingerprint": "ca4ced883acd22c5",
+      "stroke_count": 7
     },
     {
       "id": "he",
@@ -776,7 +840,9 @@
         "植物",
         "谷"
       ],
-      "path": "characters/动植物/禾.md"
+      "path": "characters/动植物/禾.md",
+      "glyph_fingerprint": "842725b940b8155c",
+      "stroke_count": 5
     },
     {
       "id": "mi",
@@ -800,7 +866,9 @@
         "植物",
         "谷"
       ],
-      "path": "characters/动植物/米.md"
+      "path": "characters/动植物/米.md",
+      "glyph_fingerprint": "60626cf90dfb1c4c",
+      "stroke_count": 6
     },
     {
       "id": "mu4",
@@ -823,7 +891,9 @@
         "树",
         "植物"
       ],
-      "path": "characters/动植物/木.md"
+      "path": "characters/动植物/木.md",
+      "glyph_fingerprint": "b6297b9468d0f9a7",
+      "stroke_count": 4
     },
     {
       "id": "niao",
@@ -846,7 +916,9 @@
         "鸟",
         "动物"
       ],
-      "path": "characters/动植物/鸟.md"
+      "path": "characters/动植物/鸟.md",
+      "glyph_fingerprint": "20562bfbfd78e9a7",
+      "stroke_count": 5
     },
     {
       "id": "niu",
@@ -869,7 +941,9 @@
         "牛",
         "动物"
       ],
-      "path": "characters/动植物/牛.md"
+      "path": "characters/动植物/牛.md",
+      "glyph_fingerprint": "da9a31faa6d0c66f",
+      "stroke_count": 4
     },
     {
       "id": "yang",
@@ -893,7 +967,9 @@
         "动物",
         "家畜"
       ],
-      "path": "characters/动植物/羊.md"
+      "path": "characters/动植物/羊.md",
+      "glyph_fingerprint": "8fdf8b7234bfe77e",
+      "stroke_count": 6
     },
     {
       "id": "yu2",
@@ -916,7 +992,9 @@
         "鱼",
         "动物"
       ],
-      "path": "characters/动植物/鱼.md"
+      "path": "characters/动植物/鱼.md",
+      "glyph_fingerprint": "7e6720fcf0224402",
+      "stroke_count": 8
     },
     {
       "id": "ma",
@@ -939,7 +1017,9 @@
         "马",
         "动物"
       ],
-      "path": "characters/动植物/马.md"
+      "path": "characters/动植物/马.md",
+      "glyph_fingerprint": "27be6a5ab5f4890f",
+      "stroke_count": 3
     },
     {
       "id": "quan",
@@ -963,7 +1043,9 @@
         "动物",
         "狗"
       ],
-      "path": "characters/动植物/犬.md"
+      "path": "characters/动植物/犬.md",
+      "glyph_fingerprint": "d95e208db03714eb",
+      "stroke_count": 4
     },
     {
       "id": "shi2",
@@ -987,7 +1069,9 @@
         "动物",
         "猪"
       ],
-      "path": "characters/动植物/豕.md"
+      "path": "characters/动植物/豕.md",
+      "glyph_fingerprint": "f245e9a6a155fb23",
+      "stroke_count": 7
     },
     {
       "id": "si",
@@ -1010,7 +1094,9 @@
         "兕",
         "罕见"
       ],
-      "path": "characters/动植物/兕.md"
+      "path": "characters/动植物/兕.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "tu",
@@ -1033,7 +1119,9 @@
         "兔",
         "动物"
       ],
-      "path": "characters/动植物/兔.md"
+      "path": "characters/动植物/兔.md",
+      "glyph_fingerprint": "94f153894fa4b311",
+      "stroke_count": 8
     },
     {
       "id": "zhu",
@@ -1056,7 +1144,9 @@
         "竹",
         "植物"
       ],
-      "path": "characters/动植物/竹.md"
+      "path": "characters/动植物/竹.md",
+      "glyph_fingerprint": "c28c033262eaa9b4",
+      "stroke_count": 6
     },
     {
       "id": "bi2",
@@ -1079,7 +1169,9 @@
         "璧",
         "玉璧"
       ],
-      "path": "characters/器物/璧.md"
+      "path": "characters/器物/璧.md",
+      "glyph_fingerprint": "8f2d741193e24447",
+      "stroke_count": 18
     },
     {
       "id": "ce",
@@ -1102,7 +1194,9 @@
         "冊",
         "器物"
       ],
-      "path": "characters/器物/冊.md"
+      "path": "characters/器物/冊.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 5
     },
     {
       "id": "cong",
@@ -1125,7 +1219,9 @@
         "琮",
         "玉琮"
       ],
-      "path": "characters/器物/琮.md"
+      "path": "characters/器物/琮.md",
+      "glyph_fingerprint": "6bd79c0484d1cb6d",
+      "stroke_count": 12
     },
     {
       "id": "dao",
@@ -1149,7 +1245,9 @@
         "兵器",
         "工具"
       ],
-      "path": "characters/器物/刀.md"
+      "path": "characters/器物/刀.md",
+      "glyph_fingerprint": "5c300805d849199b",
+      "stroke_count": 2
     },
     {
       "id": "dun",
@@ -1172,7 +1270,9 @@
         "盾",
         "盾牌"
       ],
-      "path": "characters/器物/盾.md"
+      "path": "characters/器物/盾.md",
+      "glyph_fingerprint": "f221429c17e45bc5",
+      "stroke_count": 9
     },
     {
       "id": "fu2",
@@ -1195,7 +1295,9 @@
         "斧",
         "斧头"
       ],
-      "path": "characters/器物/斧.md"
+      "path": "characters/器物/斧.md",
+      "glyph_fingerprint": "849c03ff37761175",
+      "stroke_count": 8
     },
     {
       "id": "gong",
@@ -1218,7 +1320,9 @@
         "弓",
         "兵器"
       ],
-      "path": "characters/器物/弓.md"
+      "path": "characters/器物/弓.md",
+      "glyph_fingerprint": "e5dfe93d105df3d4",
+      "stroke_count": 3
     },
     {
       "id": "jia",
@@ -1241,7 +1345,9 @@
         "甲",
         "铠甲"
       ],
-      "path": "characters/器物/甲.md"
+      "path": "characters/器物/甲.md",
+      "glyph_fingerprint": "7f0d4c9f99b4841d",
+      "stroke_count": 5
     },
     {
       "id": "ju",
@@ -1264,7 +1370,9 @@
         "具",
         "器物"
       ],
-      "path": "characters/器物/具.md"
+      "path": "characters/器物/具.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "lv",
@@ -1287,7 +1395,9 @@
         "履",
         "鞋"
       ],
-      "path": "characters/器物/履.md"
+      "path": "characters/器物/履.md",
+      "glyph_fingerprint": "4e494a984c1f5a0b",
+      "stroke_count": 15
     },
     {
       "id": "min",
@@ -1310,7 +1420,9 @@
         "皿",
         "器皿"
       ],
-      "path": "characters/器物/皿.md"
+      "path": "characters/器物/皿.md",
+      "glyph_fingerprint": "475f57c28af25c57",
+      "stroke_count": 5
     },
     {
       "id": "ren2",
@@ -1333,7 +1445,9 @@
         "刃",
         "刀刃"
       ],
-      "path": "characters/器物/刃.md"
+      "path": "characters/器物/刃.md",
+      "glyph_fingerprint": "bc98b154cdf58f94",
+      "stroke_count": 3
     },
     {
       "id": "tao",
@@ -1356,7 +1470,9 @@
         "陶",
         "陶器"
       ],
-      "path": "characters/器物/陶.md"
+      "path": "characters/器物/陶.md",
+      "glyph_fingerprint": "a50ec6ceeb392940",
+      "stroke_count": 11
     },
     {
       "id": "yi2",
@@ -1379,7 +1495,9 @@
         "衣",
         "衣服"
       ],
-      "path": "characters/器物/衣.md"
+      "path": "characters/器物/衣.md",
+      "glyph_fingerprint": "533ec4fe83548ebc",
+      "stroke_count": 6
     },
     {
       "id": "che",
@@ -1403,7 +1521,9 @@
         "车马",
         "交通"
       ],
-      "path": "characters/器物/车.md"
+      "path": "characters/器物/车.md",
+      "glyph_fingerprint": "b55910ae88761f84",
+      "stroke_count": 4
     },
     {
       "id": "ding",
@@ -1427,7 +1547,9 @@
         "礼器",
         "祭器"
       ],
-      "path": "characters/器物/鼎.md"
+      "path": "characters/器物/鼎.md",
+      "glyph_fingerprint": "ff31058c2023a73d",
+      "stroke_count": 13
     },
     {
       "id": "jue",
@@ -1450,7 +1572,9 @@
         "珏",
         "珏玉"
       ],
-      "path": "characters/器物/珏.md"
+      "path": "characters/器物/珏.md",
+      "glyph_fingerprint": "aeb003c8397119e1",
+      "stroke_count": 9
     },
     {
       "id": "wang",
@@ -1474,7 +1598,9 @@
         "工具",
         "渔猎"
       ],
-      "path": "characters/器物/网.md"
+      "path": "characters/器物/网.md",
+      "glyph_fingerprint": "92fd3afbd1430b62",
+      "stroke_count": 6
     },
     {
       "id": "yu3",
@@ -1497,7 +1623,9 @@
         "玉",
         "玉器"
       ],
-      "path": "characters/器物/玉.md"
+      "path": "characters/器物/玉.md",
+      "glyph_fingerprint": "1a981f6e414d7651",
+      "stroke_count": 5
     },
     {
       "id": "zhou",
@@ -1521,7 +1649,9 @@
         "船",
         "交通"
       ],
-      "path": "characters/器物/舟.md"
+      "path": "characters/器物/舟.md",
+      "glyph_fingerprint": "7a97a6df51598816",
+      "stroke_count": 6
     },
     {
       "id": "ge",
@@ -1544,7 +1674,9 @@
         "戈",
         "兵器"
       ],
-      "path": "characters/器物/戈.md"
+      "path": "characters/器物/戈.md",
+      "glyph_fingerprint": "046933f05450781a",
+      "stroke_count": 4
     },
     {
       "id": "zhou2",
@@ -1567,7 +1699,9 @@
         "冑",
         "罕见"
       ],
-      "path": "characters/器物/冑.md"
+      "path": "characters/器物/冑.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 9
     },
     {
       "id": "bei2",
@@ -1590,7 +1724,9 @@
         "備",
         "抽象"
       ],
-      "path": "characters/抽象/備.md"
+      "path": "characters/抽象/備.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 12
     },
     {
       "id": "bei3",
@@ -1613,7 +1749,9 @@
         "北",
         "方位"
       ],
-      "path": "characters/抽象/北.md"
+      "path": "characters/抽象/北.md",
+      "glyph_fingerprint": "f46a53da10b97538",
+      "stroke_count": 5
     },
     {
       "id": "bo2",
@@ -1636,7 +1774,9 @@
         "伯",
         "抽象"
       ],
-      "path": "characters/抽象/伯.md"
+      "path": "characters/抽象/伯.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "bu",
@@ -1659,7 +1799,9 @@
         "卜",
         "占卜"
       ],
-      "path": "characters/抽象/卜.md"
+      "path": "characters/抽象/卜.md",
+      "glyph_fingerprint": "d32e512d8d685ac9",
+      "stroke_count": 2
     },
     {
       "id": "bu3",
@@ -1682,7 +1824,9 @@
         "不",
         "否定"
       ],
-      "path": "characters/抽象/不.md"
+      "path": "characters/抽象/不.md",
+      "glyph_fingerprint": "817057b1336b83d1",
+      "stroke_count": 4
     },
     {
       "id": "chu",
@@ -1705,7 +1849,9 @@
         "出",
         "出入"
       ],
-      "path": "characters/抽象/出.md"
+      "path": "characters/抽象/出.md",
+      "glyph_fingerprint": "141079951b4c8adc",
+      "stroke_count": 5
     },
     {
       "id": "da",
@@ -1728,7 +1874,9 @@
         "大",
         "形状"
       ],
-      "path": "characters/抽象/大.md"
+      "path": "characters/抽象/大.md",
+      "glyph_fingerprint": "0b2df8830b2c10cf",
+      "stroke_count": 3
     },
     {
       "id": "dian",
@@ -1751,7 +1899,9 @@
         "典",
         "抽象"
       ],
-      "path": "characters/抽象/典.md"
+      "path": "characters/抽象/典.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "er3",
@@ -1774,7 +1924,9 @@
         "兒",
         "抽象"
       ],
-      "path": "characters/抽象/兒.md"
+      "path": "characters/抽象/兒.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "fei",
@@ -1797,7 +1949,9 @@
         "非",
         "否定"
       ],
-      "path": "characters/抽象/非.md"
+      "path": "characters/抽象/非.md",
+      "glyph_fingerprint": "0db0d1df2de7c4fd",
+      "stroke_count": 8
     },
     {
       "id": "fen",
@@ -1820,7 +1974,9 @@
         "分",
         "抽象"
       ],
-      "path": "characters/抽象/分.md"
+      "path": "characters/抽象/分.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 4
     },
     {
       "id": "gen",
@@ -1843,7 +1999,9 @@
         "亘",
         "抽象"
       ],
-      "path": "characters/抽象/亘.md"
+      "path": "characters/抽象/亘.md",
+      "glyph_fingerprint": "5710cd607883d9b5",
+      "stroke_count": 6
     },
     {
       "id": "gong3",
@@ -1866,7 +2024,9 @@
         "公",
         "抽象"
       ],
-      "path": "characters/抽象/公.md"
+      "path": "characters/抽象/公.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 4
     },
     {
       "id": "gong4",
@@ -1889,7 +2049,9 @@
         "共",
         "抽象"
       ],
-      "path": "characters/抽象/共.md"
+      "path": "characters/抽象/共.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "he2",
@@ -1912,7 +2074,9 @@
         "何",
         "抽象"
       ],
-      "path": "characters/抽象/何.md"
+      "path": "characters/抽象/何.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "hou",
@@ -1935,7 +2099,9 @@
         "侯",
         "抽象"
       ],
-      "path": "characters/抽象/侯.md"
+      "path": "characters/抽象/侯.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 9
     },
     {
       "id": "hu",
@@ -1958,7 +2124,9 @@
         "乎",
         "抽象"
       ],
-      "path": "characters/抽象/乎.md"
+      "path": "characters/抽象/乎.md",
+      "glyph_fingerprint": "db6892f0284c4744",
+      "stroke_count": 5
     },
     {
       "id": "ji2",
@@ -1981,7 +2149,9 @@
         "亟",
         "抽象"
       ],
-      "path": "characters/抽象/亟.md"
+      "path": "characters/抽象/亟.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 9
     },
     {
       "id": "jie",
@@ -2004,7 +2174,9 @@
         "介",
         "抽象"
       ],
-      "path": "characters/抽象/介.md"
+      "path": "characters/抽象/介.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 4
     },
     {
       "id": "jin",
@@ -2027,7 +2199,9 @@
         "今",
         "抽象"
       ],
-      "path": "characters/抽象/今.md"
+      "path": "characters/抽象/今.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 4
     },
     {
       "id": "kan",
@@ -2050,7 +2224,9 @@
         "侃",
         "抽象"
       ],
-      "path": "characters/抽象/侃.md"
+      "path": "characters/抽象/侃.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "kang",
@@ -2073,7 +2249,9 @@
         "亢",
         "抽象"
       ],
-      "path": "characters/抽象/亢.md"
+      "path": "characters/抽象/亢.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 4
     },
     {
       "id": "ke",
@@ -2096,7 +2274,9 @@
         "克",
         "抽象"
       ],
-      "path": "characters/抽象/克.md"
+      "path": "characters/抽象/克.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "li4",
@@ -2119,7 +2299,9 @@
         "利",
         "抽象"
       ],
-      "path": "characters/抽象/利.md"
+      "path": "characters/抽象/利.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "ling",
@@ -2142,7 +2324,9 @@
         "令",
         "抽象"
       ],
-      "path": "characters/抽象/令.md"
+      "path": "characters/抽象/令.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 5
     },
     {
       "id": "ming2",
@@ -2165,7 +2349,9 @@
         "名",
         "名字"
       ],
-      "path": "characters/抽象/名.md"
+      "path": "characters/抽象/名.md",
+      "glyph_fingerprint": "3c9144f4e7c69c02",
+      "stroke_count": 6
     },
     {
       "id": "mo",
@@ -2188,7 +2374,9 @@
         "莫",
         "否定"
       ],
-      "path": "characters/抽象/莫.md"
+      "path": "characters/抽象/莫.md",
+      "glyph_fingerprint": "434cd41011b9e29b",
+      "stroke_count": 11
     },
     {
       "id": "nai",
@@ -2211,7 +2399,9 @@
         "乃",
         "抽象"
       ],
-      "path": "characters/抽象/乃.md"
+      "path": "characters/抽象/乃.md",
+      "glyph_fingerprint": "09f9fef486c75f27",
+      "stroke_count": 2
     },
     {
       "id": "nan",
@@ -2234,7 +2424,9 @@
         "南",
         "方位"
       ],
-      "path": "characters/抽象/南.md"
+      "path": "characters/抽象/南.md",
+      "glyph_fingerprint": "19d07374d7f9e3bd",
+      "stroke_count": 9
     },
     {
       "id": "qi3",
@@ -2257,7 +2449,9 @@
         "乞",
         "抽象"
       ],
-      "path": "characters/抽象/乞.md"
+      "path": "characters/抽象/乞.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 3
     },
     {
       "id": "qi5",
@@ -2280,7 +2474,9 @@
         "其",
         "抽象"
       ],
-      "path": "characters/抽象/其.md"
+      "path": "characters/抽象/其.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "qie",
@@ -2303,7 +2499,9 @@
         "且",
         "抽象"
       ],
-      "path": "characters/抽象/且.md"
+      "path": "characters/抽象/且.md",
+      "glyph_fingerprint": "81f14a0fff9368c8",
+      "stroke_count": 5
     },
     {
       "id": "qu",
@@ -2326,7 +2524,9 @@
         "去",
         "出入"
       ],
-      "path": "characters/抽象/去.md"
+      "path": "characters/抽象/去.md",
+      "glyph_fingerprint": "bc98b154cdf58f94",
+      "stroke_count": 5
     },
     {
       "id": "re",
@@ -2349,7 +2549,9 @@
         "刈",
         "抽象"
       ],
-      "path": "characters/抽象/刈.md"
+      "path": "characters/抽象/刈.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 4
     },
     {
       "id": "ru",
@@ -2372,7 +2574,9 @@
         "入",
         "出入"
       ],
-      "path": "characters/抽象/入.md"
+      "path": "characters/抽象/入.md",
+      "glyph_fingerprint": "467f8d59db27ac97",
+      "stroke_count": 2
     },
     {
       "id": "shang",
@@ -2395,7 +2599,9 @@
         "上",
         "方位"
       ],
-      "path": "characters/抽象/上.md"
+      "path": "characters/抽象/上.md",
+      "glyph_fingerprint": "ef1b1170acb881af",
+      "stroke_count": 3
     },
     {
       "id": "shi5",
@@ -2418,7 +2624,9 @@
         "事",
         "抽象"
       ],
-      "path": "characters/抽象/事.md"
+      "path": "characters/抽象/事.md",
+      "glyph_fingerprint": "81f14a0fff9368c8",
+      "stroke_count": 8
     },
     {
       "id": "shi6",
@@ -2441,7 +2649,9 @@
         "使",
         "抽象"
       ],
-      "path": "characters/抽象/使.md"
+      "path": "characters/抽象/使.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "wang2",
@@ -2464,7 +2674,9 @@
         "王",
         "王权"
       ],
-      "path": "characters/抽象/王.md"
+      "path": "characters/抽象/王.md",
+      "glyph_fingerprint": "9b606ad4124ab280",
+      "stroke_count": 4
     },
     {
       "id": "wang3",
@@ -2487,7 +2699,9 @@
         "亡",
         "抽象"
       ],
-      "path": "characters/抽象/亡.md"
+      "path": "characters/抽象/亡.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 3
     },
     {
       "id": "wei",
@@ -2510,7 +2724,9 @@
         "未",
         "否定"
       ],
-      "path": "characters/抽象/未.md"
+      "path": "characters/抽象/未.md",
+      "glyph_fingerprint": "817057b1336b83d1",
+      "stroke_count": 5
     },
     {
       "id": "wen",
@@ -2533,7 +2749,9 @@
         "文",
         "文字"
       ],
-      "path": "characters/抽象/文.md"
+      "path": "characters/抽象/文.md",
+      "glyph_fingerprint": "de109133bca71307",
+      "stroke_count": 4
     },
     {
       "id": "wu",
@@ -2556,7 +2774,9 @@
         "勿",
         "否定"
       ],
-      "path": "characters/抽象/勿.md"
+      "path": "characters/抽象/勿.md",
+      "glyph_fingerprint": "db0510e577b7cc86",
+      "stroke_count": 4
     },
     {
       "id": "xi4",
@@ -2579,7 +2799,9 @@
         "西",
         "方位"
       ],
-      "path": "characters/抽象/西.md"
+      "path": "characters/抽象/西.md",
+      "glyph_fingerprint": "bca3c96159ff16fa",
+      "stroke_count": 6
     },
     {
       "id": "xia",
@@ -2602,7 +2824,9 @@
         "下",
         "方位"
       ],
-      "path": "characters/抽象/下.md"
+      "path": "characters/抽象/下.md",
+      "glyph_fingerprint": "db6892f0284c4744",
+      "stroke_count": 3
     },
     {
       "id": "xian",
@@ -2625,7 +2849,9 @@
         "先",
         "抽象"
       ],
-      "path": "characters/抽象/先.md"
+      "path": "characters/抽象/先.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "xiong",
@@ -2648,7 +2874,9 @@
         "兄",
         "抽象"
       ],
-      "path": "characters/抽象/兄.md"
+      "path": "characters/抽象/兄.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 5
     },
     {
       "id": "yan",
@@ -2671,7 +2899,9 @@
         "言",
         "言语"
       ],
-      "path": "characters/抽象/言.md"
+      "path": "characters/抽象/言.md",
+      "glyph_fingerprint": "938daf283fad4d39",
+      "stroke_count": 7
     },
     {
       "id": "yi4",
@@ -2694,7 +2924,9 @@
         "亦",
         "抽象"
       ],
-      "path": "characters/抽象/亦.md"
+      "path": "characters/抽象/亦.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "yi5",
@@ -2717,7 +2949,9 @@
         "以",
         "抽象"
       ],
-      "path": "characters/抽象/以.md"
+      "path": "characters/抽象/以.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 5
     },
     {
       "id": "yi6",
@@ -2740,7 +2974,9 @@
         "伊",
         "抽象"
       ],
-      "path": "characters/抽象/伊.md"
+      "path": "characters/抽象/伊.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "you",
@@ -2763,7 +2999,9 @@
         "佑",
         "抽象"
       ],
-      "path": "characters/抽象/佑.md"
+      "path": "characters/抽象/佑.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "you2",
@@ -2786,7 +3024,9 @@
         "侑",
         "抽象"
       ],
-      "path": "characters/抽象/侑.md"
+      "path": "characters/抽象/侑.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "yu4",
@@ -2809,7 +3049,9 @@
         "于",
         "抽象"
       ],
-      "path": "characters/抽象/于.md"
+      "path": "characters/抽象/于.md",
+      "glyph_fingerprint": "db6892f0284c4744",
+      "stroke_count": 3
     },
     {
       "id": "yu5",
@@ -2832,7 +3074,9 @@
         "余",
         "抽象"
       ],
-      "path": "characters/抽象/余.md"
+      "path": "characters/抽象/余.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "yuan",
@@ -2855,7 +3099,9 @@
         "元",
         "抽象"
       ],
-      "path": "characters/抽象/元.md"
+      "path": "characters/抽象/元.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 4
     },
     {
       "id": "yun2",
@@ -2878,7 +3124,9 @@
         "允",
         "抽象"
       ],
-      "path": "characters/抽象/允.md"
+      "path": "characters/抽象/允.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 4
     },
     {
       "id": "zai",
@@ -2901,7 +3149,9 @@
         "再",
         "抽象"
       ],
-      "path": "characters/抽象/再.md"
+      "path": "characters/抽象/再.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "zha",
@@ -2924,7 +3174,9 @@
         "乍",
         "抽象"
       ],
-      "path": "characters/抽象/乍.md"
+      "path": "characters/抽象/乍.md",
+      "glyph_fingerprint": "4196b3062eb08b4c",
+      "stroke_count": 5
     },
     {
       "id": "zhi2",
@@ -2947,7 +3199,9 @@
         "之",
         "抽象"
       ],
-      "path": "characters/抽象/之.md"
+      "path": "characters/抽象/之.md",
+      "glyph_fingerprint": "5547007826b02d12",
+      "stroke_count": 4
     },
     {
       "id": "zhong",
@@ -2970,7 +3224,9 @@
         "中",
         "方位"
       ],
-      "path": "characters/抽象/中.md"
+      "path": "characters/抽象/中.md",
+      "glyph_fingerprint": "fba755475b4fb732",
+      "stroke_count": 4
     },
     {
       "id": "zuo",
@@ -2993,7 +3249,9 @@
         "左",
         "方位"
       ],
-      "path": "characters/抽象/左.md"
+      "path": "characters/抽象/左.md",
+      "glyph_fingerprint": "d6db140734856c4a",
+      "stroke_count": 5
     },
     {
       "id": "duo",
@@ -3016,7 +3274,9 @@
         "多",
         "数量"
       ],
-      "path": "characters/抽象/多.md"
+      "path": "characters/抽象/多.md",
+      "glyph_fingerprint": "b5994ec0bdf0df26",
+      "stroke_count": 6
     },
     {
       "id": "shi3",
@@ -3040,7 +3300,9 @@
         "祭祀",
         "神主"
       ],
-      "path": "characters/抽象/示.md"
+      "path": "characters/抽象/示.md",
+      "glyph_fingerprint": "cbc3ebc82f09cc9a",
+      "stroke_count": 5
     },
     {
       "id": "xiao",
@@ -3063,7 +3325,9 @@
         "小",
         "形状"
       ],
-      "path": "characters/抽象/小.md"
+      "path": "characters/抽象/小.md",
+      "glyph_fingerprint": "fb73fff56e1d0cca",
+      "stroke_count": 3
     },
     {
       "id": "a1",
@@ -3086,7 +3350,9 @@
         "㐭",
         "罕见"
       ],
-      "path": "characters/抽象/㐭.md"
+      "path": "characters/抽象/㐭.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "a10",
@@ -3109,7 +3375,9 @@
         "㛸",
         "罕见"
       ],
-      "path": "characters/抽象/㛸.md"
+      "path": "characters/抽象/㛸.md",
+      "glyph_fingerprint": "42ae8963a14bf6d7",
+      "stroke_count": 12
     },
     {
       "id": "a11",
@@ -3132,7 +3400,9 @@
         "㜽",
         "罕见"
       ],
-      "path": "characters/抽象/㜽.md"
+      "path": "characters/抽象/㜽.md",
+      "glyph_fingerprint": "f221429c17e45bc5",
+      "stroke_count": 6
     },
     {
       "id": "a12",
@@ -3155,7 +3425,9 @@
         "㝛",
         "罕见"
       ],
-      "path": "characters/抽象/㝛.md"
+      "path": "characters/抽象/㝛.md",
+      "glyph_fingerprint": "f221429c17e45bc5",
+      "stroke_count": 11
     },
     {
       "id": "a13",
@@ -3178,7 +3450,9 @@
         "㝡",
         "罕见"
       ],
-      "path": "characters/抽象/㝡.md"
+      "path": "characters/抽象/㝡.md",
+      "glyph_fingerprint": "987404e40599f8fe",
+      "stroke_count": 11
     },
     {
       "id": "a14",
@@ -3201,7 +3475,9 @@
         "㝵",
         "罕见"
       ],
-      "path": "characters/抽象/㝵.md"
+      "path": "characters/抽象/㝵.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "a15",
@@ -3224,7 +3500,9 @@
         "㞢",
         "罕见"
       ],
-      "path": "characters/抽象/㞢.md"
+      "path": "characters/抽象/㞢.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 4
     },
     {
       "id": "a16",
@@ -3247,7 +3525,9 @@
         "㞷",
         "罕见"
       ],
-      "path": "characters/抽象/㞷.md"
+      "path": "characters/抽象/㞷.md",
+      "glyph_fingerprint": "f221429c17e45bc5",
+      "stroke_count": 7
     },
     {
       "id": "a17",
@@ -3270,7 +3550,9 @@
         "㠯",
         "罕见"
       ],
-      "path": "characters/抽象/㠯.md"
+      "path": "characters/抽象/㠯.md",
+      "glyph_fingerprint": "eabdf7ff168e3ed3",
+      "stroke_count": 5
     },
     {
       "id": "a18",
@@ -3293,7 +3575,9 @@
         "㢭",
         "罕见"
       ],
-      "path": "characters/抽象/㢭.md"
+      "path": "characters/抽象/㢭.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "a19",
@@ -3316,7 +3600,9 @@
         "㣕",
         "罕见"
       ],
-      "path": "characters/抽象/㣕.md"
+      "path": "characters/抽象/㣕.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "a2",
@@ -3339,7 +3625,9 @@
         "㐱",
         "罕见"
       ],
-      "path": "characters/抽象/㐱.md"
+      "path": "characters/抽象/㐱.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 5
     },
     {
       "id": "a20",
@@ -3362,7 +3650,9 @@
         "㣙",
         "罕见"
       ],
-      "path": "characters/抽象/㣙.md"
+      "path": "characters/抽象/㣙.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "a21",
@@ -3385,7 +3675,9 @@
         "㦰",
         "罕见"
       ],
-      "path": "characters/抽象/㦰.md"
+      "path": "characters/抽象/㦰.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "a22",
@@ -3408,7 +3700,9 @@
         "㦵",
         "罕见"
       ],
-      "path": "characters/抽象/㦵.md"
+      "path": "characters/抽象/㦵.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 10
     },
     {
       "id": "a23",
@@ -3431,7 +3725,9 @@
         "㪅",
         "罕见"
       ],
-      "path": "characters/抽象/㪅.md"
+      "path": "characters/抽象/㪅.md",
+      "glyph_fingerprint": "f221429c17e45bc5",
+      "stroke_count": 9
     },
     {
       "id": "a24",
@@ -3454,7 +3750,9 @@
         "㪔",
         "罕见"
       ],
-      "path": "characters/抽象/㪔.md"
+      "path": "characters/抽象/㪔.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 12
     },
     {
       "id": "a25",
@@ -3477,7 +3775,9 @@
         "㫃",
         "罕见"
       ],
-      "path": "characters/抽象/㫃.md"
+      "path": "characters/抽象/㫃.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "a26",
@@ -3500,7 +3800,9 @@
         "㫌",
         "罕见"
       ],
-      "path": "characters/抽象/㫌.md"
+      "path": "characters/抽象/㫌.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 11
     },
     {
       "id": "a27",
@@ -3523,7 +3825,9 @@
         "㫶",
         "罕见"
       ],
-      "path": "characters/抽象/㫶.md"
+      "path": "characters/抽象/㫶.md",
+      "glyph_fingerprint": "4adfb261a7e0c6bc",
+      "stroke_count": 12
     },
     {
       "id": "a28",
@@ -3546,7 +3850,9 @@
         "㯥",
         "罕见"
       ],
-      "path": "characters/抽象/㯥.md"
+      "path": "characters/抽象/㯥.md",
+      "glyph_fingerprint": "aeb003c8397119e1",
+      "stroke_count": 16
     },
     {
       "id": "a29",
@@ -3569,7 +3875,9 @@
         "㱃",
         "罕见"
       ],
-      "path": "characters/抽象/㱃.md"
+      "path": "characters/抽象/㱃.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 15
     },
     {
       "id": "a3",
@@ -3592,7 +3900,9 @@
         "㕚",
         "罕见"
       ],
-      "path": "characters/抽象/㕚.md"
+      "path": "characters/抽象/㕚.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 4
     },
     {
       "id": "a30",
@@ -3615,7 +3925,9 @@
         "㱿",
         "罕见"
       ],
-      "path": "characters/抽象/㱿.md"
+      "path": "characters/抽象/㱿.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 10
     },
     {
       "id": "a31",
@@ -3638,7 +3950,9 @@
         "㲋",
         "罕见"
       ],
-      "path": "characters/抽象/㲋.md"
+      "path": "characters/抽象/㲋.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 9
     },
     {
       "id": "a32",
@@ -3661,7 +3975,9 @@
         "㲹",
         "罕见"
       ],
-      "path": "characters/抽象/㲹.md"
+      "path": "characters/抽象/㲹.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 5
     },
     {
       "id": "a33",
@@ -3684,7 +4000,9 @@
         "㲻",
         "罕见"
       ],
-      "path": "characters/抽象/㲻.md"
+      "path": "characters/抽象/㲻.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "a34",
@@ -3707,7 +4025,9 @@
         "㳄",
         "罕见"
       ],
-      "path": "characters/抽象/㳄.md"
+      "path": "characters/抽象/㳄.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "a35",
@@ -3730,7 +4050,9 @@
         "㳑",
         "罕见"
       ],
-      "path": "characters/抽象/㳑.md"
+      "path": "characters/抽象/㳑.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "a36",
@@ -3753,7 +4075,9 @@
         "㵢",
         "罕见"
       ],
-      "path": "characters/抽象/㵢.md"
+      "path": "characters/抽象/㵢.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 16
     },
     {
       "id": "a37",
@@ -3776,7 +4100,9 @@
         "㸕",
         "罕见"
       ],
-      "path": "characters/抽象/㸕.md"
+      "path": "characters/抽象/㸕.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 14
     },
     {
       "id": "a38",
@@ -3799,7 +4125,9 @@
         "㽙",
         "罕见"
       ],
-      "path": "characters/抽象/㽙.md"
+      "path": "characters/抽象/㽙.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 9
     },
     {
       "id": "a39",
@@ -3822,7 +4150,9 @@
         "㿝",
         "罕见"
       ],
-      "path": "characters/抽象/㿝.md"
+      "path": "characters/抽象/㿝.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "a4",
@@ -3845,7 +4175,9 @@
         "㕦",
         "罕见"
       ],
-      "path": "characters/抽象/㕦.md"
+      "path": "characters/抽象/㕦.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "a40",
@@ -3868,7 +4200,9 @@
         "䂫",
         "罕见"
       ],
-      "path": "characters/抽象/䂫.md"
+      "path": "characters/抽象/䂫.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 11
     },
     {
       "id": "a41",
@@ -3891,7 +4225,9 @@
         "䃄",
         "罕见"
       ],
-      "path": "characters/抽象/䃄.md"
+      "path": "characters/抽象/䃄.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 13
     },
     {
       "id": "a42",
@@ -3914,7 +4250,9 @@
         "䄆",
         "罕见"
       ],
-      "path": "characters/抽象/䄆.md"
+      "path": "characters/抽象/䄆.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 11
     },
     {
       "id": "a43",
@@ -3937,7 +4275,9 @@
         "䇂",
         "罕见"
       ],
-      "path": "characters/抽象/䇂.md"
+      "path": "characters/抽象/䇂.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "a44",
@@ -3960,7 +4300,9 @@
         "䊤",
         "罕见"
       ],
-      "path": "characters/抽象/䊤.md"
+      "path": "characters/抽象/䊤.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 18
     },
     {
       "id": "a45",
@@ -3983,7 +4325,9 @@
         "䌙",
         "罕见"
       ],
-      "path": "characters/抽象/䌙.md"
+      "path": "characters/抽象/䌙.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 18
     },
     {
       "id": "a46",
@@ -4006,7 +4350,9 @@
         "䍜",
         "罕见"
       ],
-      "path": "characters/抽象/䍜.md"
+      "path": "characters/抽象/䍜.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 13
     },
     {
       "id": "a47",
@@ -4029,7 +4375,9 @@
         "䍩",
         "罕见"
       ],
-      "path": "characters/抽象/䍩.md"
+      "path": "characters/抽象/䍩.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 10
     },
     {
       "id": "a48",
@@ -4052,7 +4400,9 @@
         "䏤",
         "罕见"
       ],
-      "path": "characters/抽象/䏤.md"
+      "path": "characters/抽象/䏤.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 9
     },
     {
       "id": "a49",
@@ -4075,7 +4425,9 @@
         "䖵",
         "罕见"
       ],
-      "path": "characters/抽象/䖵.md"
+      "path": "characters/抽象/䖵.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 12
     },
     {
       "id": "a5",
@@ -4098,7 +4450,9 @@
         "㕫",
         "罕见"
       ],
-      "path": "characters/抽象/㕫.md"
+      "path": "characters/抽象/㕫.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "a50",
@@ -4121,7 +4475,9 @@
         "䜴",
         "罕见"
       ],
-      "path": "characters/抽象/䜴.md"
+      "path": "characters/抽象/䜴.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 11
     },
     {
       "id": "a51",
@@ -4144,7 +4500,9 @@
         "䝅",
         "罕见"
       ],
-      "path": "characters/抽象/䝅.md"
+      "path": "characters/抽象/䝅.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 10
     },
     {
       "id": "a52",
@@ -4167,7 +4525,9 @@
         "䝭",
         "罕见"
       ],
-      "path": "characters/抽象/䝭.md"
+      "path": "characters/抽象/䝭.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 12
     },
     {
       "id": "a53",
@@ -4190,7 +4550,9 @@
         "䞢",
         "罕见"
       ],
-      "path": "characters/抽象/䞢.md"
+      "path": "characters/抽象/䞢.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 12
     },
     {
       "id": "a54",
@@ -4213,7 +4575,9 @@
         "䠶",
         "罕见"
       ],
-      "path": "characters/抽象/䠶.md"
+      "path": "characters/抽象/䠶.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 12
     },
     {
       "id": "a55",
@@ -4236,7 +4600,9 @@
         "䣬",
         "罕见"
       ],
-      "path": "characters/抽象/䣬.md"
+      "path": "characters/抽象/䣬.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 11
     },
     {
       "id": "a56",
@@ -4259,7 +4625,9 @@
         "䧅",
         "罕见"
       ],
-      "path": "characters/抽象/䧅.md"
+      "path": "characters/抽象/䧅.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 9
     },
     {
       "id": "a57",
@@ -4282,7 +4650,9 @@
         "䨮",
         "罕见"
       ],
-      "path": "characters/抽象/䨮.md"
+      "path": "characters/抽象/䨮.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 19
     },
     {
       "id": "a58",
@@ -4305,7 +4675,9 @@
         "䵼",
         "罕见"
       ],
-      "path": "characters/抽象/䵼.md"
+      "path": "characters/抽象/䵼.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 24
     },
     {
       "id": "a6",
@@ -4328,7 +4700,9 @@
         "㕯",
         "罕见"
       ],
-      "path": "characters/抽象/㕯.md"
+      "path": "characters/抽象/㕯.md",
+      "glyph_fingerprint": "f221429c17e45bc5",
+      "stroke_count": 7
     },
     {
       "id": "a7",
@@ -4351,7 +4725,9 @@
         "㘡",
         "罕见"
       ],
-      "path": "characters/抽象/㘡.md"
+      "path": "characters/抽象/㘡.md",
+      "glyph_fingerprint": "38065ea09730240d",
+      "stroke_count": 8
     },
     {
       "id": "a8",
@@ -4374,7 +4750,9 @@
         "㚔",
         "罕见"
       ],
-      "path": "characters/抽象/㚔.md"
+      "path": "characters/抽象/㚔.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "a9",
@@ -4397,7 +4775,9 @@
         "㚻",
         "罕见"
       ],
-      "path": "characters/抽象/㚻.md"
+      "path": "characters/抽象/㚻.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "bao4",
@@ -4420,7 +4800,9 @@
         "刞",
         "罕见"
       ],
-      "path": "characters/抽象/刞.md"
+      "path": "characters/抽象/刞.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "bing2",
@@ -4443,7 +4825,9 @@
         "並",
         "罕见"
       ],
-      "path": "characters/抽象/並.md"
+      "path": "characters/抽象/並.md",
+      "glyph_fingerprint": "aeb003c8397119e1",
+      "stroke_count": 8
     },
     {
       "id": "cheng2",
@@ -4466,7 +4850,9 @@
         "偁",
         "罕见"
       ],
-      "path": "characters/抽象/偁.md"
+      "path": "characters/抽象/偁.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 11
     },
     {
       "id": "chou2",
@@ -4489,7 +4875,9 @@
         "侜",
         "罕见"
       ],
-      "path": "characters/抽象/侜.md"
+      "path": "characters/抽象/侜.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "dui",
@@ -4512,7 +4900,9 @@
         "兌",
         "罕见"
       ],
-      "path": "characters/抽象/兌.md"
+      "path": "characters/抽象/兌.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "er4",
@@ -4535,7 +4925,9 @@
         "刵",
         "罕见"
       ],
-      "path": "characters/抽象/刵.md"
+      "path": "characters/抽象/刵.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "fu5",
@@ -4558,7 +4950,9 @@
         "刜",
         "罕见"
       ],
-      "path": "characters/抽象/刜.md"
+      "path": "characters/抽象/刜.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "ge2",
@@ -4581,7 +4975,9 @@
         "丯",
         "罕见"
       ],
-      "path": "characters/抽象/丯.md"
+      "path": "characters/抽象/丯.md",
+      "glyph_fingerprint": "81f14a0fff9368c8",
+      "stroke_count": 4
     },
     {
       "id": "geng",
@@ -4604,7 +5000,9 @@
         "伇",
         "罕见"
       ],
-      "path": "characters/抽象/伇.md"
+      "path": "characters/抽象/伇.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "gong2",
@@ -4627,7 +5025,9 @@
         "侚",
         "罕见"
       ],
-      "path": "characters/抽象/侚.md"
+      "path": "characters/抽象/侚.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "ji3",
@@ -4650,7 +5050,9 @@
         "祭",
         "祭祀"
       ],
-      "path": "characters/抽象/祭.md"
+      "path": "characters/抽象/祭.md",
+      "glyph_fingerprint": "53d12b5efcac8282",
+      "stroke_count": 11
     },
     {
       "id": "jiao",
@@ -4673,7 +5075,9 @@
         "冓",
         "罕见"
       ],
-      "path": "characters/抽象/冓.md"
+      "path": "characters/抽象/冓.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 10
     },
     {
       "id": "jiong",
@@ -4696,7 +5100,9 @@
         "冏",
         "罕见"
       ],
-      "path": "characters/抽象/冏.md"
+      "path": "characters/抽象/冏.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 7
     },
     {
       "id": "jiu",
@@ -4719,7 +5125,9 @@
         "丩",
         "罕见"
       ],
-      "path": "characters/抽象/丩.md"
+      "path": "characters/抽象/丩.md",
+      "glyph_fingerprint": "9e30fec5e5f040af",
+      "stroke_count": 2
     },
     {
       "id": "jue2",
@@ -4742,7 +5150,9 @@
         "亅",
         "罕见"
       ],
-      "path": "characters/抽象/亅.md"
+      "path": "characters/抽象/亅.md",
+      "glyph_fingerprint": "91cb339409bf604f",
+      "stroke_count": 1
     },
     {
       "id": "lun",
@@ -4765,7 +5175,9 @@
         "侖",
         "罕见"
       ],
-      "path": "characters/抽象/侖.md"
+      "path": "characters/抽象/侖.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "nv2",
@@ -4788,7 +5200,9 @@
         "丮",
         "罕见"
       ],
-      "path": "characters/抽象/丮.md"
+      "path": "characters/抽象/丮.md",
+      "glyph_fingerprint": "5f74480e296380c7",
+      "stroke_count": 4
     },
     {
       "id": "peng",
@@ -4811,7 +5225,9 @@
         "倗",
         "罕见"
       ],
-      "path": "characters/抽象/倗.md"
+      "path": "characters/抽象/倗.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 10
     },
     {
       "id": "qing",
@@ -4834,7 +5250,9 @@
         "冟",
         "罕见"
       ],
-      "path": "characters/抽象/冟.md"
+      "path": "characters/抽象/冟.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 9
     },
     {
       "id": "shu",
@@ -4857,7 +5275,9 @@
         "伓",
         "罕见"
       ],
-      "path": "characters/抽象/伓.md"
+      "path": "characters/抽象/伓.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "tao2",
@@ -4880,7 +5300,9 @@
         "乇",
         "罕见"
       ],
-      "path": "characters/抽象/乇.md"
+      "path": "characters/抽象/乇.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 3
     },
     {
       "id": "ti",
@@ -4903,7 +5325,9 @@
         "倿",
         "罕见"
       ],
-      "path": "characters/抽象/倿.md"
+      "path": "characters/抽象/倿.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 10
     },
     {
       "id": "wan4",
@@ -4926,7 +5350,9 @@
         "刓",
         "罕见"
       ],
-      "path": "characters/抽象/刓.md"
+      "path": "characters/抽象/刓.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "xi3",
@@ -4949,7 +5375,9 @@
         "係",
         "罕见"
       ],
-      "path": "characters/抽象/係.md"
+      "path": "characters/抽象/係.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 9
     },
     {
       "id": "xi5",
@@ -4972,7 +5400,9 @@
         "兮",
         "罕见"
       ],
-      "path": "characters/抽象/兮.md"
+      "path": "characters/抽象/兮.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 4
     },
     {
       "id": "xiong2",
@@ -4995,7 +5425,9 @@
         "兇",
         "罕见"
       ],
-      "path": "characters/抽象/兇.md"
+      "path": "characters/抽象/兇.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "ya",
@@ -5018,7 +5450,9 @@
         "亞",
         "罕见"
       ],
-      "path": "characters/抽象/亞.md"
+      "path": "characters/抽象/亞.md",
+      "glyph_fingerprint": "aeb003c8397119e1",
+      "stroke_count": 8
     },
     {
       "id": "yue4",
@@ -5041,7 +5475,9 @@
         "刖",
         "罕见"
       ],
-      "path": "characters/抽象/刖.md"
+      "path": "characters/抽象/刖.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "ba",
@@ -5064,7 +5500,9 @@
         "八",
         "数目"
       ],
-      "path": "characters/数目/八.md"
+      "path": "characters/数目/八.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 2
     },
     {
       "id": "bai",
@@ -5087,7 +5525,9 @@
         "百",
         "数"
       ],
-      "path": "characters/数目/百.md"
+      "path": "characters/数目/百.md",
+      "glyph_fingerprint": "6307fed6508a858a",
+      "stroke_count": 6
     },
     {
       "id": "bing",
@@ -5110,7 +5550,9 @@
         "丙",
         "数目"
       ],
-      "path": "characters/数目/丙.md"
+      "path": "characters/数目/丙.md",
+      "glyph_fingerprint": "534247538652f644",
+      "stroke_count": 5
     },
     {
       "id": "chou",
@@ -5133,7 +5575,9 @@
         "丑",
         "数目"
       ],
-      "path": "characters/数目/丑.md"
+      "path": "characters/数目/丑.md",
+      "glyph_fingerprint": "47b6a33dc2700275",
+      "stroke_count": 4
     },
     {
       "id": "ding2",
@@ -5156,7 +5600,9 @@
         "丁",
         "数目"
       ],
-      "path": "characters/数目/丁.md"
+      "path": "characters/数目/丁.md",
+      "glyph_fingerprint": "77fd8761a2143228",
+      "stroke_count": 2
     },
     {
       "id": "er",
@@ -5179,7 +5625,9 @@
         "二",
         "数"
       ],
-      "path": "characters/数目/二.md"
+      "path": "characters/数目/二.md",
+      "glyph_fingerprint": "6d5c6422bd934c5f",
+      "stroke_count": 2
     },
     {
       "id": "hai",
@@ -5202,7 +5650,9 @@
         "亥",
         "数目"
       ],
-      "path": "characters/数目/亥.md"
+      "path": "characters/数目/亥.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "jiu2",
@@ -5225,7 +5675,9 @@
         "九",
         "数目"
       ],
-      "path": "characters/数目/九.md"
+      "path": "characters/数目/九.md",
+      "glyph_fingerprint": "29bdeb6692deb862",
+      "stroke_count": 2
     },
     {
       "id": "liu",
@@ -5248,7 +5700,9 @@
         "六",
         "数目"
       ],
-      "path": "characters/数目/六.md"
+      "path": "characters/数目/六.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 4
     },
     {
       "id": "qi2",
@@ -5271,7 +5725,9 @@
         "七",
         "数目"
       ],
-      "path": "characters/数目/七.md"
+      "path": "characters/数目/七.md",
+      "glyph_fingerprint": "29bdeb6692deb862",
+      "stroke_count": 2
     },
     {
       "id": "qian",
@@ -5294,7 +5750,9 @@
         "千",
         "数"
       ],
-      "path": "characters/数目/千.md"
+      "path": "characters/数目/千.md",
+      "glyph_fingerprint": "a45f15b9b7d5eef4",
+      "stroke_count": 3
     },
     {
       "id": "san",
@@ -5317,7 +5775,9 @@
         "三",
         "数"
       ],
-      "path": "characters/数目/三.md"
+      "path": "characters/数目/三.md",
+      "glyph_fingerprint": "8d532f8df317ceb3",
+      "stroke_count": 3
     },
     {
       "id": "shi",
@@ -5340,7 +5800,9 @@
         "十",
         "数"
       ],
-      "path": "characters/数目/十.md"
+      "path": "characters/数目/十.md",
+      "glyph_fingerprint": "8943dbec924a8537",
+      "stroke_count": 2
     },
     {
       "id": "wan",
@@ -5363,7 +5825,9 @@
         "万",
         "数目"
       ],
-      "path": "characters/数目/万.md"
+      "path": "characters/数目/万.md",
+      "glyph_fingerprint": "534247538652f644",
+      "stroke_count": 3
     },
     {
       "id": "wu2",
@@ -5386,7 +5850,9 @@
         "五",
         "数目"
       ],
-      "path": "characters/数目/五.md"
+      "path": "characters/数目/五.md",
+      "glyph_fingerprint": "29bdeb6692deb862",
+      "stroke_count": 4
     },
     {
       "id": "yi",
@@ -5409,7 +5875,9 @@
         "一",
         "数"
       ],
-      "path": "characters/数目/一.md"
+      "path": "characters/数目/一.md",
+      "glyph_fingerprint": "116188afed0ca247",
+      "stroke_count": 1
     },
     {
       "id": "yi3",
@@ -5432,7 +5900,9 @@
         "乙",
         "数目"
       ],
-      "path": "characters/数目/乙.md"
+      "path": "characters/数目/乙.md",
+      "glyph_fingerprint": "e2acbcc83affe832",
+      "stroke_count": 1
     },
     {
       "id": "zhong2",
@@ -5455,7 +5925,9 @@
         "仲",
         "数目"
       ],
-      "path": "characters/数目/仲.md"
+      "path": "characters/数目/仲.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 6
     },
     {
       "id": "tian3",
@@ -5478,7 +5950,9 @@
         "亯",
         "罕见"
       ],
-      "path": "characters/数目/亯.md"
+      "path": "characters/数目/亯.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 9
     },
     {
       "id": "bai2",
@@ -5501,7 +5975,9 @@
         "白",
         "白色"
       ],
-      "path": "characters/自然现象/白.md"
+      "path": "characters/自然现象/白.md",
+      "glyph_fingerprint": "eabdf7ff168e3ed3",
+      "stroke_count": 5
     },
     {
       "id": "bo",
@@ -5524,7 +6000,9 @@
         "亳",
         "自然"
       ],
-      "path": "characters/自然现象/亳.md"
+      "path": "characters/自然现象/亳.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 10
     },
     {
       "id": "chuan",
@@ -5547,7 +6025,9 @@
         "川",
         "河流"
       ],
-      "path": "characters/自然现象/川.md"
+      "path": "characters/自然现象/川.md",
+      "glyph_fingerprint": "3b35ea4440aef90e",
+      "stroke_count": 3
     },
     {
       "id": "dan",
@@ -5570,7 +6050,9 @@
         "丹",
         "自然"
       ],
-      "path": "characters/自然现象/丹.md"
+      "path": "characters/自然现象/丹.md",
+      "glyph_fingerprint": "93372e0be0e79b67",
+      "stroke_count": 4
     },
     {
       "id": "guang",
@@ -5593,7 +6075,9 @@
         "光",
         "光芒"
       ],
-      "path": "characters/自然现象/光.md"
+      "path": "characters/自然现象/光.md",
+      "glyph_fingerprint": "926d42c400590d25",
+      "stroke_count": 6
     },
     {
       "id": "hei",
@@ -5616,7 +6100,9 @@
         "黑",
         "黑色"
       ],
-      "path": "characters/自然现象/黑.md"
+      "path": "characters/自然现象/黑.md",
+      "glyph_fingerprint": "42ae8963a14bf6d7",
+      "stroke_count": 12
     },
     {
       "id": "jing",
@@ -5639,7 +6125,9 @@
         "井",
         "自然"
       ],
-      "path": "characters/自然现象/井.md"
+      "path": "characters/自然现象/井.md",
+      "glyph_fingerprint": "1e81a0e7e178d9bd",
+      "stroke_count": 4
     },
     {
       "id": "jing2",
@@ -5662,7 +6150,9 @@
         "京",
         "自然"
       ],
-      "path": "characters/自然现象/京.md"
+      "path": "characters/自然现象/京.md",
+      "glyph_fingerprint": "3c99e9dda8540722",
+      "stroke_count": 8
     },
     {
       "id": "ming",
@@ -5685,7 +6175,9 @@
         "明",
         "光明"
       ],
-      "path": "characters/自然现象/明.md"
+      "path": "characters/自然现象/明.md",
+      "glyph_fingerprint": "9d25eb3d78670447",
+      "stroke_count": 8
     },
     {
       "id": "qi",
@@ -5708,7 +6200,9 @@
         "气",
         "空气"
       ],
-      "path": "characters/自然现象/气.md"
+      "path": "characters/自然现象/气.md",
+      "glyph_fingerprint": "de109133bca71307",
+      "stroke_count": 4
     },
     {
       "id": "qiu",
@@ -5731,7 +6225,9 @@
         "丘",
         "自然"
       ],
-      "path": "characters/自然现象/丘.md"
+      "path": "characters/自然现象/丘.md",
+      "glyph_fingerprint": "6236b866735476cf",
+      "stroke_count": 5
     },
     {
       "id": "ri",
@@ -5754,7 +6250,9 @@
         "太阳",
         "天体"
       ],
-      "path": "characters/自然现象/日.md"
+      "path": "characters/自然现象/日.md",
+      "glyph_fingerprint": "b5415e1ccb0024d6",
+      "stroke_count": 4
     },
     {
       "id": "shan",
@@ -5777,7 +6275,9 @@
         "山",
         "地形"
       ],
-      "path": "characters/自然现象/山.md"
+      "path": "characters/自然现象/山.md",
+      "glyph_fingerprint": "6fe0fa0661897721",
+      "stroke_count": 3
     },
     {
       "id": "shi4",
@@ -5800,7 +6300,9 @@
         "石",
         "石头"
       ],
-      "path": "characters/自然现象/石.md"
+      "path": "characters/自然现象/石.md",
+      "glyph_fingerprint": "1e67918db69f2c1b",
+      "stroke_count": 5
     },
     {
       "id": "tian2",
@@ -5823,7 +6325,9 @@
         "田",
         "农耕"
       ],
-      "path": "characters/自然现象/田.md"
+      "path": "characters/自然现象/田.md",
+      "glyph_fingerprint": "2c1ef1e6d179c200",
+      "stroke_count": 5
     },
     {
       "id": "tu2",
@@ -5846,7 +6350,9 @@
         "土",
         "土地"
       ],
-      "path": "characters/自然现象/土.md"
+      "path": "characters/自然现象/土.md",
+      "glyph_fingerprint": "130d3b8db9f9118a",
+      "stroke_count": 3
     },
     {
       "id": "yue",
@@ -5869,7 +6375,9 @@
         "月亮",
         "天体"
       ],
-      "path": "characters/自然现象/月.md"
+      "path": "characters/自然现象/月.md",
+      "glyph_fingerprint": "fb1bcebbc659fe9a",
+      "stroke_count": 4
     },
     {
       "id": "huo",
@@ -5892,7 +6400,9 @@
         "火",
         "火焰"
       ],
-      "path": "characters/自然现象/火.md"
+      "path": "characters/自然现象/火.md",
+      "glyph_fingerprint": "6fb1ef6bee2ed123",
+      "stroke_count": 4
     },
     {
       "id": "lei",
@@ -5916,7 +6426,9 @@
         "天象",
         "雨"
       ],
-      "path": "characters/自然现象/雷.md"
+      "path": "characters/自然现象/雷.md",
+      "glyph_fingerprint": "1cce1e506ee3f34c",
+      "stroke_count": 13
     },
     {
       "id": "shui",
@@ -5939,7 +6451,9 @@
         "水",
         "流水"
       ],
-      "path": "characters/自然现象/水.md"
+      "path": "characters/自然现象/水.md",
+      "glyph_fingerprint": "7fd2cff5d8663945",
+      "stroke_count": 4
     },
     {
       "id": "tian",
@@ -5962,7 +6476,9 @@
         "天",
         "天体"
       ],
-      "path": "characters/自然现象/天.md"
+      "path": "characters/自然现象/天.md",
+      "glyph_fingerprint": "b5f717bed8e760ff",
+      "stroke_count": 4
     },
     {
       "id": "yu",
@@ -5985,7 +6501,9 @@
         "雨",
         "气象"
       ],
-      "path": "characters/自然现象/雨.md"
+      "path": "characters/自然现象/雨.md",
+      "glyph_fingerprint": "4ca6ef425eea7b9a",
+      "stroke_count": 8
     },
     {
       "id": "xing",
@@ -6008,7 +6526,9 @@
         "星",
         "天体"
       ],
-      "path": "characters/自然现象/星.md"
+      "path": "characters/自然现象/星.md",
+      "glyph_fingerprint": "1c280d18203ad577",
+      "stroke_count": 9
     },
     {
       "id": "yun",
@@ -6031,7 +6551,9 @@
         "云",
         "气象"
       ],
-      "path": "characters/自然现象/云.md"
+      "path": "characters/自然现象/云.md",
+      "glyph_fingerprint": "4e8bbae7ab0c0986",
+      "stroke_count": 4
     }
   ]
 }
