@@ -22,6 +22,11 @@ jobs:
       # 甲骨形 PNG 由本地批次渲染产出入库，字节即事实源（checksums.json 防篡改）；
       # CI 只校验 md / json / 派生页面。gen-glyphs.py --selftest 保留（不写盘）。
 
+      # Pillow 只为 gen-glyphs.py --selftest 服务（自检里会渲染样张）；
+      # 正式渲染已移出 CI 链（见下）。
+      - name: 装 Pillow
+        run: pip install Pillow
+
       - name: 检查器自检（每个护栏先证明它抓得住坏例子）
         # 存在但没接进链的检查等同于没有检查。每个 --selftest 都用坏样本证明护栏真拦得住。
         run: |
