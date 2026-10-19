@@ -1,0 +1,7 @@
+* text=auto
+*.png -text
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.mjs text eol=lf
+*.yml text eol=lf
