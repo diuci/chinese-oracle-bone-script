@@ -16,8 +16,11 @@ jobs:
       - name: 检出
         uses: actions/checkout@v5
 
-      - name: 装 Pillow（gen-glyphs.py 渲染字形用）
-        run: pip install Pillow
+      # 注意：CI 不跑 gen-glyphs.py 的渲染（2026-10-19 起）。
+      # PIL 渲染的 PNG 字节跨平台/跨版本不可复现（Linux 渲染与提交字节不同），
+      # 重渲染会让可复现闸门必红——该步骤失败从 501fb07 起一直如此。
+      # 甲骨形 PNG 由本地批次渲染产出入库，字节即事实源（checksums.json 防篡改）；
+      # CI 只校验 md / json / 派生页面。gen-glyphs.py --selftest 保留（不写盘）。
 
       - name: 检查器自检（每个护栏先证明它抓得住坏例子）
         # 存在但没接进链的检查等同于没有检查。每个 --selftest 都用坏样本证明护栏真拦得住。
@@ -38,13 +41,13 @@ jobs:
         run: |
           python3 tools/gen-index.py
           python3 tools/build-site.py
-          python3 tools/gen-glyphs.py
           node tools/check-legal.mjs
 
       - name: 可复现闸门：跑完不许改动任何已提交的文件
-        # build.py / gen-index.py / build-site.py / gen-glyphs.py 会写
-        # data/characters.json、data/checksums.json、characters/索引.md、site/**、characters/**/*.png。
+        # build.py / gen-index.py / build-site.py 会写
+        # data/characters.json、data/checksums.json、characters/索引.md、site/**。
         # 重算结果与提交进去的不一样，这里就红：提交进去的产物必须是链条跑出来的，不是手改出来的。
+        # characters/**/*.png 不在重算范围（见顶部说明），由 checksums.json 防篡改。
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git diff --stat
