@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""validate.py — 甲骨文内容仓十项校验（任何一项失败即 exit 1）
+"""validate.py — 甲骨文内容仓十一项校验（任何一项失败即 exit 1）
 
 沿用「文档即契约」：docs/scope.md 里的收录清单是第 1 项的可执行契约。
 每个检查都是一个纯函数 `checkN(chars, ctx) -> [错误串]`，这样
@@ -17,6 +17,8 @@
     8. 公版证据        —— license=public-domain 且 era=当代 的署名作者，卒年须 ≤ 当前年−50
     9. 去重            —— 今字全库唯一；同字多解须登记 known-defects.json
     10. 字类合法       —— type 必须取自合法集
+    11. 笔画覆盖       —— 画字玩法的 strokes 闸门（PLAN-画甲骨文 §4.2）：
+        GLYPHS 全覆盖、图元 6 种、坐标 512 内、共图组必须登记
 
 用法：
     python tools/validate.py             # 完整校验（第 1 项生效）
@@ -114,7 +116,7 @@ def parse_scope(path):
     return out
 
 
-# -------------------------------------------------- 十个检查（纯函数）
+# -------------------------------------------------- 十一个检查（纯函数）
 def check1_scope(chars, scope):
     errs = []
     have = {c.get('id'): c for c in chars}
@@ -281,6 +283,64 @@ def check10_type(chars):
     return errs
 
 
+# 画字玩法的笔画数据（PLAN-画甲骨文 §4.2）：图元 6 种、画布 512×512
+GLYPH_PRIMITIVES = {'line': 4, 'dot': 3, 'circle': 3, 'ellipse': 4, 'arc': 5, 'rect': 4}
+GLYPH_CANVAS = 512
+
+
+def check11_strokes(data_chars, md_ids, defects):
+    """笔画覆盖（画字玩法的数据闸门）。data_chars = data/characters.json 的记录。
+
+    - 每字必须有 strokes（GLYPHS 覆盖），缺失即报——画字玩法没数据就是死谜
+    - 每个图元：类型在 6 种之内、参数个数对、坐标在 512 画布内
+    - md 与 json 的 id 集必须一致（strokes 是按 id 挂的，挂错身就是另一道死谜）
+    - 渲染字形共图组（指纹相同、字数 >1）必须登记 known-defects——
+      「多个字渲染一模一样」是内容质量债（懒人字形定义），不许静默；
+      正解是按《甲骨文字典》逐批补真实字形，登记 = 知情放行，先上后修
+    """
+    errs = []
+    if data_chars is None:
+        errs.append('读不到 data/characters.json：先跑 python tools/build.py')
+        return errs
+    json_ids = {c.get('id') for c in data_chars}
+    for i in sorted(md_ids ^ json_ids):
+        errs.append('characters.json 与 md 的 id 不一致：%s（strokes 会挂错身）' % i)
+    for c in data_chars:
+        cid = c.get('id')
+        st = c.get('strokes')
+        if not st or not isinstance(st, list):
+            errs.append('%s 缺笔画数据（GLYPHS 未覆盖）' % cid)
+            continue
+        for i, prim in enumerate(st):
+            where = '%s strokes[%d]' % (cid, i)
+            if not isinstance(prim, list) or not prim or prim[0] not in GLYPH_PRIMITIVES:
+                errs.append('%s 图元非法：%r' % (where, prim))
+                continue
+            want = GLYPH_PRIMITIVES[prim[0]]
+            if len(prim) - 1 != want:
+                errs.append('%s %s 参数应为 %d 个，实得 %d' % (where, prim[0], want, len(prim) - 1))
+            for v in prim[1:]:
+                if not isinstance(v, (int, float)) or v < 0 or v > GLYPH_CANVAS:
+                    errs.append('%s 坐标越界（0–512）：%r' % (where, v))
+    # 共图组：渲染字形指纹相同、字数 >1 的组必须显式登记
+    from collections import defaultdict
+    groups = defaultdict(list)
+    for c in data_chars:
+        fp = c.get('glyph_fingerprint')
+        if fp:
+            groups[fp].append(c.get('id'))
+    dup_groups = {fp: ids for fp, ids in groups.items() if len(ids) > 1}
+    registered = any(str(k).startswith('glyph-duplicate:') for k in defects)
+    if dup_groups and not registered:
+        worst = max(dup_groups.values(), key=len)
+        errs.append('渲染字形共图 %d 组 / %d 字未登记（最大组 %d 字，如 %s）：'
+                    '在 known-defects.json 登记 key 前缀 glyph-duplicate: 的条目，'
+                    '或按《甲骨文字典》补真实字形'
+                    % (len(dup_groups), sum(len(v) for v in dup_groups.values()),
+                       len(worst), '/'.join(worst[:3])))
+    return errs
+
+
 # -------------------------------------------------- 汇总
 def run_checks(chars, ctx, partial=False):
     scope, authors, defects, year = ctx['scope'], ctx['authors'], ctx['defects'], ctx['year']
@@ -295,6 +355,7 @@ def run_checks(chars, ctx, partial=False):
         ('公版证据', check8_publicdomain(chars, authors, year), False),
         ('去重', check9_dedup(chars, defects), False),
         ('字类合法', check10_type(chars), False),
+        ('笔画覆盖', check11_strokes(ctx.get('data_chars'), {c.get('id') for c in chars}, defects), False),
     ]
     total_err = 0
     for name, errs, skipped in groups:
@@ -312,12 +373,17 @@ def run_checks(chars, ctx, partial=False):
 
 
 def ctx_for(root):
+    data_chars = None
+    data_path = root / 'data' / 'characters.json'
+    if data_path.exists():
+        data_chars = json.loads(data_path.read_text(encoding='utf-8')).get('chars')
     return {
         'scope': parse_scope(root / 'docs' / 'scope.md'),
         'authors': load_authors(root / 'data' / 'authors.json'),
         'defects': load_defects(root / 'data' / 'known-defects.json'),
         'year': datetime.date.today().year,
         'chars_dir': root / 'characters',
+        'data_chars': data_chars,
     }
 
 
@@ -332,9 +398,9 @@ def main(argv=None):
     errs = run_checks(chars, ctx, partial)
     print()
     if errs:
-        print('%s%d 项校验共 %d 个错误%s' % (C.FAIL, 10, errs, C.END))
+        print('%s%d 项校验共 %d 个错误%s' % (C.FAIL, 11, errs, C.END))
         return 1
-    print('%s十项校验全绿（%d 篇字目）%s' % (C.OK, len(chars), C.END))
+    print('%s十一项校验全绿（%d 篇字目）%s' % (C.OK, len(chars), C.END))
     return 0
 
 
@@ -369,6 +435,16 @@ def selftest():
             [rec(license='public-domain', era='当代', author='在世作者')], authors, 2026)),
         ('check9 今字重复', lambda: check9_dedup([rec(char='日'), rec(id='y', char='日')], set())),
         ('check10 字类非法', lambda: check10_type([rec(type='乱造')])),
+        # check11 坏样本：笔画数据（画字玩法）
+        ('check11 缺笔画', lambda: check11_strokes([dict(id='a', strokes=None)], {'a'}, set())),
+        ('check11 图元类型非法', lambda: check11_strokes([dict(id='a', strokes=[['spiral', 1, 2]])], {'a'}, set())),
+        ('check11 坐标越界', lambda: check11_strokes([dict(id='a', strokes=[['line', 0, 0, 600, 256]])], {'a'}, set())),
+        ('check11 参数个数不对', lambda: check11_strokes([dict(id='a', strokes=[['circle', 256]])], {'a'}, set())),
+        ('check11 共图未登记', lambda: check11_strokes(
+            [dict(id='a', strokes=[['line', 0, 0, 100, 100]], glyph_fingerprint='fp1'),
+             dict(id='b', strokes=[['line', 0, 0, 100, 100]], glyph_fingerprint='fp1')], {'a', 'b'}, set())),
+        ('check11 json 与 md 的 id 集不一致', lambda: check11_strokes(
+            [dict(id='a', strokes=[['line', 0, 0, 100, 100]])], {'a', 'zz'}, set())),
     ]
     failures = []
     for name, fn in cases:
@@ -392,7 +468,13 @@ def selftest():
                      ('clean-check7', lambda: check7_frontmatter(clean, chars_dir)),
                      ('clean-check8', lambda: check8_publicdomain(clean, authors, 2026)),
                      ('clean-check9', lambda: check9_dedup(clean, set())),
-                     ('clean-check10', lambda: check10_type(clean))]:
+                     ('clean-check10', lambda: check10_type(clean)),
+                     ('clean-check11 合法笔画放行', lambda: check11_strokes(
+                         [dict(id='a', strokes=[['circle', 256, 256, 110], ['dot', 256, 256, 12]])], {'a'}, set())),
+                     ('clean-check11 共图已登记放行', lambda: check11_strokes(
+                         [dict(id='a', strokes=[['line', 0, 0, 100, 100]], glyph_fingerprint='fp1'),
+                          dict(id='b', strokes=[['line', 0, 0, 100, 100]], glyph_fingerprint='fp1')],
+                         {'a', 'b'}, {'glyph-duplicate:rendered-shapes'}))]:
         try:
             errs = fn()
         except Exception as e:

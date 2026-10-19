@@ -17,6 +17,7 @@
 """
 
 import argparse
+import ast
 import hashlib
 import json
 import sys
@@ -32,6 +33,34 @@ FIELDS = [
     'id', 'char', 'char_len', 'type', 'subtype', 'difficulty',
     'author', 'era', 'source', 'license', 'copyright', 'glyph', 'scan', 'tags',
 ]
+
+# 画字玩法（PLAN-画甲骨文 §4）的笔画数据：直接从 gen-glyphs.py 的 GLYPHS 字面量
+# 提取（AST，不 import——那会连 PIL 和绘制副作用一起带上）。
+# 渲染用的坐标就是判定用的坐标，两者同源（gen-glyphs.py 是字形的唯一真源）。
+GLYPH_PRIMITIVES = {'line', 'dot', 'circle', 'ellipse', 'arc', 'rect'}
+
+
+def load_glyph_strokes(tools_dir):
+    """从 tools/gen-glyphs.py 的 GLYPHS 字面量提取 {id: [图元…]}。
+
+    文件不存在（自检的临时目录）返回 None——调用方留空，validate check11 会报。
+    """
+    src = tools_dir / 'gen-glyphs.py'
+    if not src.exists():
+        return None
+    tree = ast.parse(src.read_text(encoding='utf-8'))
+    for node in tree.body:
+        if isinstance(node, ast.Assign) and any(
+            isinstance(t, ast.Name) and t.id == 'GLYPHS' for t in node.targets
+        ):
+            raw = ast.literal_eval(node.value)
+            out = {}
+            for gid, (typ, strokes) in raw.items():
+                # prims 保持 literal_eval 的原始元组形式——指纹算法（repr）对
+                # 圆括号/方括号敏感，转换必须在算完指纹之后（自检实抓过一次全库漂移）
+                out[gid] = {'type': typ, 'prims': strokes}
+            return out
+    raise ValueError('gen-glyphs.py 里没有 GLYPHS 定义')
 
 
 def parse_char_file(path):
@@ -68,14 +97,46 @@ def type_counts(chars):
     return c
 
 
-def build(chars_dir, out_dir):
+def build(chars_dir, out_dir, tools_dir=None):
     chars = collect(chars_dir)
+    glyphs = load_glyph_strokes(tools_dir) if tools_dir else None
+    # stroke_count 是外源数据（Unihan kTotalStrokes，CI 上没有），从重算前的
+    # characters.json 沿用同 id 的值——不重算、不编造，读不到就 None。
+    prev_by_id = {}
+    prev_path = out_dir / 'characters.json'
+    if prev_path.exists():
+        try:
+            prev_by_id = {c.get('id'): c for c in
+                          json.loads(prev_path.read_text(encoding='utf-8')).get('chars', [])}
+        except (ValueError, OSError):
+            prev_by_id = {}
+    for rec in chars:
+        prev = prev_by_id.get(rec['id']) or {}
+        rec['stroke_count'] = prev.get('stroke_count')
+        if glyphs is None:
+            continue
+        g = glyphs.get(rec['id'])
+        if not g:
+            rec['strokes'] = None
+            rec['glyph_fingerprint'] = None
+            continue
+        # strokes 转成 list 便于 JSON；指纹沿用 build-fingerprints.py 的算法定义
+        # （repr(list(图元元组)) 的 sha256 前 16 位）——换算法会全库改指纹，禁改。
+        rec['strokes'] = [list(s) for s in g['prims']]
+        rec['glyph_fingerprint'] = hashlib.sha256(
+            repr(g['prims']).encode('utf-8')).hexdigest()[:16]
     payload = {
         'version': 1,
         'count': len(chars),
         'types': type_counts(chars),
         'chars': chars,
     }
+    if glyphs is not None:
+        payload['strokesSource'] = {
+            'from': 'tools/gen-glyphs.py GLYPHS',
+            'glyphs': len(glyphs),
+            'covered': sum(1 for r in chars if r.get('strokes')),
+        }
     json_text = json.dumps(payload, ensure_ascii=False, indent=2) + '\n'
 
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -108,8 +169,11 @@ def main(argv=None):
 
     root = Path(args.root)
     out_dir = Path(args.out) if args.out else root / 'data'
-    payload = build(root / 'characters', out_dir)
+    payload = build(root / 'characters', out_dir, tools_dir=root / 'tools')
     print('built %d characters → %s' % (payload['count'], out_dir / 'characters.json'))
+    if 'strokesSource' in payload:
+        s = payload['strokesSource']
+        print('strokes: GLYPHS %d 条 → 覆盖 %d 字' % (s['glyphs'], s['covered']))
     return 0
 
 
