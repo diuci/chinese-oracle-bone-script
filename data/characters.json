@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "count": 255,
+  "count": 261,
   "types": {
     "人体动作": 32,
     "动植物": 13,
     "器物": 22,
-    "抽象": 145,
+    "抽象": 151,
     "数目": 19,
     "自然现象": 24
   },
@@ -1515,7 +1515,7 @@
         "annotations": "cc-by-4.0"
       },
       "glyph": "器物/zhou.png",
-      "scan": "器物/zhou-scan.png",
+      "scan": null,
       "tags": [
         "舟",
         "船",
@@ -1561,8 +1561,8 @@
         "text": "public-domain",
         "annotations": "cc-by-4.0"
       },
-      "glyph": "器物/zhou.png",
-      "scan": "器物/zhou-scan.png",
+      "glyph": "器物/zhou2.png",
+      "scan": "器物/zhou2-scan.png",
       "tags": [
         "冑",
         "罕见"
@@ -2097,6 +2097,29 @@
         "抽象"
       ],
       "path": "characters/抽象/克.md"
+    },
+    {
+      "id": "li4",
+      "char": "利",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/li4.png",
+      "scan": "抽象/li4-scan.png",
+      "tags": [
+        "利",
+        "抽象"
+      ],
+      "path": "characters/抽象/利.md"
     },
     {
       "id": "ling",
@@ -4377,6 +4400,29 @@
       "path": "characters/抽象/㚻.md"
     },
     {
+      "id": "bao4",
+      "char": "刞",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/bao4.png",
+      "scan": "抽象/bao4-scan.png",
+      "tags": [
+        "刞",
+        "罕见"
+      ],
+      "path": "characters/抽象/刞.md"
+    },
+    {
       "id": "bing2",
       "char": "並",
       "char_len": 1,
@@ -4467,6 +4513,52 @@
         "罕见"
       ],
       "path": "characters/抽象/兌.md"
+    },
+    {
+      "id": "er4",
+      "char": "刵",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/er4.png",
+      "scan": "抽象/er4-scan.png",
+      "tags": [
+        "刵",
+        "罕见"
+      ],
+      "path": "characters/抽象/刵.md"
+    },
+    {
+      "id": "fu5",
+      "char": "刜",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/fu5.png",
+      "scan": "抽象/fu5-scan.png",
+      "tags": [
+        "刜",
+        "罕见"
+      ],
+      "path": "characters/抽象/刜.md"
     },
     {
       "id": "ge2",
@@ -4814,6 +4906,29 @@
       "path": "characters/抽象/倿.md"
     },
     {
+      "id": "wan4",
+      "char": "刓",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/wan4.png",
+      "scan": "抽象/wan4-scan.png",
+      "tags": [
+        "刓",
+        "罕见"
+      ],
+      "path": "characters/抽象/刓.md"
+    },
+    {
       "id": "xi3",
       "char": "係",
       "char_len": 1,
@@ -4904,6 +5019,29 @@
         "罕见"
       ],
       "path": "characters/抽象/亞.md"
+    },
+    {
+      "id": "yue4",
+      "char": "刖",
+      "char_len": 1,
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "author": "佚名",
+      "era": "商",
+      "source": "S1",
+      "license": "public-domain",
+      "copyright": {
+        "text": "public-domain",
+        "annotations": "cc-by-4.0"
+      },
+      "glyph": "抽象/yue4.png",
+      "scan": "抽象/yue4-scan.png",
+      "tags": [
+        "刖",
+        "罕见"
+      ],
+      "path": "characters/抽象/刖.md"
     },
     {
       "id": "ba",
