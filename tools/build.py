@@ -64,10 +64,31 @@ def load_glyph_strokes(tools_dir):
 
 
 def parse_char_file(path):
-    """读一个 .md，返回 (frontmatter dict, 相对路径 str)。"""
+    """读一个 .md，返回 (frontmatter dict, 正文 str, 相对路径 str)。"""
     text = path.read_text(encoding='utf-8')
-    data, _body = fm.parse_frontmatter(text)
-    return data, path
+    data, body = fm.parse_frontmatter(text)
+    return data, body, path
+
+
+# 拓片出处三级口径（docs/sources.md「字形图的来源」）→ 机读 scanKind。
+# 依据是 md 正文里**已有的**出处规约行——md 是唯一事实源，这里只忠实翻译：
+#   「原拓片图：KLOBIP/OBIMD …」  → obimd（S6 真骨片拓片）
+#   「甲骨原形图：Wikimedia …」   → ref   （S7 公版参考图，非拓片）
+#   「本字暂无真骨片拓片」        → None  （渲染兜底，如「舟」）
+# 两类出处行同时出现或都没有，交给 validate check12 拦，这里不猜。
+SCAN_MARKS = {
+    'obimd': '原拓片图：KLOBIP/OBIMD',
+    'ref': '甲骨原形图：Wikimedia Commons',
+}
+
+
+def scan_kind_from_body(body):
+    hits = [k for k, mark in SCAN_MARKS.items() if mark in body]
+    if len(hits) == 1:
+        return hits[0]
+    if not hits and '暂无真骨片拓片' in body:
+        return None
+    return None  # 归属不明——下游闸门报，编译不猜
 
 
 def collect(chars_dir):
@@ -78,11 +99,12 @@ def collect(chars_dir):
     for p in sorted(chars_dir.rglob('*.md')):
         if p.name == '索引.md':
             continue  # 生成的索引不是内容
-        data, _ = parse_char_file(p)
+        data, body, _ = parse_char_file(p)
         rec = {}
         for f in FIELDS:
             rec[f] = data.get(f)
         rec['path'] = p.relative_to(chars_dir.parent).as_posix()
+        rec['scanKind'] = scan_kind_from_body(body or '')
         out.append(rec)
     out.sort(key=lambda r: (str(r.get('type') or ''), r.get('difficulty') or 0, str(r.get('id') or '')))
     return out
@@ -240,6 +262,39 @@ def selftest():
         j3 = json.loads((out3 / 'characters.json').read_text(encoding='utf-8'))
         if j3['count'] != 1:
             failures.append('索引.md 被当成字目收录（count=%s）' % j3['count'])
+
+        # scanKind 三级口径：md 正文出处行 → 机读字段（OBIMD 断供策略）
+        head = (
+            '---\n'
+            'id: {id}\n'
+            'char: {ch}\n'
+            'char_len: 1\n'
+            'type: 自然现象\n'
+            'difficulty: 1\n'
+            'author: 佚名\n'
+            'era: 商\n'
+            'source: S1\n'
+            'license: public-domain\n'
+            'copyright: {{ text: public-domain, annotations: cc-by-4.0 }}\n'
+            'glyph: 自然现象/{f}.png\n'
+            'tags: [x]\n'
+            '---\n\n#{ch} 测试\n\n'
+        )
+        variants = {
+            'a': ('原拓片图：KLOBIP/OBIMD 甲骨文铭文多模态数据集（S6，CC-BY-4.0），主字 x。\n', 'obimd'),
+            'b': ('甲骨原形图：Wikimedia Commons「x-oracle.svg」（公版）。\n', 'ref'),
+            'c': ('**本字暂无真骨片拓片**，如实说明如下：\n', None),
+        }
+        for fid, (line, want) in variants.items():
+            body_md = head.format(id='k' + fid, ch='测', f=fid) + line
+            (cdir / ('测' + fid + '.md')).write_text(body_md, encoding='utf-8')
+        build(tdr / 'characters', tdr / 'out4')
+        j4 = json.loads((tdr / 'out4' / 'characters.json').read_text(encoding='utf-8'))
+        by_id = {c['id']: c.get('scanKind') for c in j4['chars']}
+        for fid, (_line, want) in variants.items():
+            got = by_id.get('k' + fid, 'MISSING')
+            if got != want:
+                failures.append('scanKind 判定错误：k%s 应为 %r，实得 %r' % (fid, want, got))
 
     if failures:
         print('build.py selftest FAILED:')

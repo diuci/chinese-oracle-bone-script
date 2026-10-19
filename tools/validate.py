@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""validate.py — 甲骨文内容仓十一项校验（任何一项失败即 exit 1）
+"""validate.py — 甲骨文内容仓十二项校验（任何一项失败即 exit 1）
 
 沿用「文档即契约」：docs/scope.md 里的收录清单是第 1 项的可执行契约。
 每个检查都是一个纯函数 `checkN(chars, ctx) -> [错误串]`，这样
 `--selftest` 可以直接拿坏样本喂给单个检查，证明它真的拦得住坏例子。
 
-十项校验：
+十二项校验：
     1. 收录范围完整性  —— scope.md 要求收录的必须齐，框架外的不得多收
     2. id 唯一性       —— 全库 id 不重复
     3. 今字字段        —— char 非空、必须单字、char_len 与 char 字数一致
@@ -19,6 +19,9 @@
     10. 字类合法       —— type 必须取自合法集
     11. 笔画覆盖       —— 画字玩法的 strokes 闸门（PLAN-画甲骨文 §4.2）：
         GLYPHS 全覆盖、图元 6 种、坐标 512 内、共图组必须登记
+    12. 拓片出处       —— OBIMD 断供三级口径闸门（docs/sources.md）：
+        scan 有 → md 必须有 S6 拓片行或 S7 参考图行（互斥），scanKind 与之对应
+        scan 无 → md 必须有「暂无真骨片拓片」兜底说明（不许拿形近字拓片冒充）
 
 用法：
     python tools/validate.py             # 完整校验（第 1 项生效）
@@ -341,6 +344,58 @@ def check11_strokes(data_chars, md_ids, defects):
     return errs
 
 
+# 拓片出处三级口径的规约行（与 build.py 的 SCAN_MARKS 同源同义——
+# md 正文是唯一事实源，build 负责编译成 scanKind，这里负责拦住不合契约的）
+SCAN_MARKS = {
+    'obimd': '原拓片图：KLOBIP/OBIMD',
+    'ref': '甲骨原形图：Wikimedia Commons',
+}
+
+
+def check12_scan_provenance(data_chars, chars_dir):
+    """拓片出处三级口径（OBIMD 断供策略闸门，docs/sources.md「字形图的来源」）。
+
+      scan 有 → md 正文必须恰好一类出处行（S6 真拓片 / S7 参考图，互斥），
+                characters.json 的 scanKind 必须与之对应
+      scan 无 → md 正文必须有「暂无真骨片拓片」兜底说明——「舟」的教训：
+                OBIMD 里 19 处形近字拓片（立/午/卜）全部弃用，不许冒充
+    """
+    errs = []
+    if data_chars is None:
+        errs.append('读不到 data/characters.json：先跑 python tools/build.py')
+        return errs
+    for c in data_chars:
+        cid = c.get('id')
+        path = c.get('path')
+        if not path:
+            errs.append('%s 缺 path（characters.json 是旧产物，重跑 build）' % cid)
+            continue
+        md = chars_dir.parent / path
+        if not md.exists():
+            errs.append('%s 字条 md 缺失：%s' % (cid, path))
+            continue
+        body = md.read_text(encoding='utf-8')
+        kinds = [k for k, mark in SCAN_MARKS.items() if mark in body]
+        scan = c.get('scan')
+        if scan:
+            if len(kinds) > 1:
+                errs.append('%s 拓片出处行既有 S6 又有 S7——两类互斥，删掉错的那个' % cid)
+            elif not kinds:
+                errs.append('%s 有 scan 但 md 没有出处行（S6「原拓片图：KLOBIP/OBIMD」或 '
+                            'S7「甲骨原形图：Wikimedia Commons」）——出处不明，不许默认' % cid)
+            elif c.get('scanKind') != kinds[0]:
+                errs.append('%s scanKind=%r 与 md 出处行（%s）不符：重跑 build 刷新产物'
+                            % (cid, c.get('scanKind'), kinds[0]))
+        else:
+            if kinds:
+                errs.append('%s 无 scan 却写了拓片出处行：图都没挂，出处行是摆设' % cid)
+            elif '暂无真骨片拓片' not in body:
+                errs.append('%s 无 scan 也没有「暂无真骨片拓片」兜底说明——渲染图兜底必须如实声明' % cid)
+            if c.get('scanKind') is not None:
+                errs.append('%s 无 scan 但 scanKind=%r（应为 null）：重跑 build' % (cid, c.get('scanKind')))
+    return errs
+
+
 # -------------------------------------------------- 汇总
 def run_checks(chars, ctx, partial=False):
     scope, authors, defects, year = ctx['scope'], ctx['authors'], ctx['defects'], ctx['year']
@@ -356,6 +411,7 @@ def run_checks(chars, ctx, partial=False):
         ('去重', check9_dedup(chars, defects), False),
         ('字类合法', check10_type(chars), False),
         ('笔画覆盖', check11_strokes(ctx.get('data_chars'), {c.get('id') for c in chars}, defects), False),
+        ('拓片出处', check12_scan_provenance(ctx.get('data_chars'), ctx['chars_dir']), False),
     ]
     total_err = 0
     for name, errs, skipped in groups:
@@ -398,9 +454,9 @@ def main(argv=None):
     errs = run_checks(chars, ctx, partial)
     print()
     if errs:
-        print('%s%d 项校验共 %d 个错误%s' % (C.FAIL, 11, errs, C.END))
+        print('%s十二项校验共 %d 个错误%s' % (C.FAIL, errs, C.END))
         return 1
-    print('%s十一项校验全绿（%d 篇字目）%s' % (C.OK, len(chars), C.END))
+    print('%s十二项校验全绿（%d 篇字目）%s' % (C.OK, len(chars), C.END))
     return 0
 
 
@@ -421,6 +477,15 @@ def selftest():
     (chars_dir / '自然现象').mkdir(parents=True)
     (chars_dir / '自然现象' / 'a.png').write_bytes(b'png')
     (chars_dir / '自然现象' / 'b.png').write_bytes(b'png')
+    # check12 的 md 样本：无出处行 / S7 行 / 兜底行 / S6+S7 并存 / 干净 S6
+    (chars_dir / '自然现象' / 'a.md').write_text('# 测试\n\n正文没有任何拓片出处行。\n', encoding='utf-8')
+    (chars_dir / '自然现象' / 'ref.md').write_text('# 测试\n\n甲骨原形图：Wikimedia Commons「x-oracle.svg」（公版）。\n', encoding='utf-8')
+    (chars_dir / '自然现象' / 'none.md').write_text('# 测试\n\n**本字暂无真骨片拓片**，如实说明如下：\n', encoding='utf-8')
+    (chars_dir / '自然现象' / 'both.md').write_text(
+        '# 测试\n\n原拓片图：KLOBIP/OBIMD 甲骨文铭文多模态数据集（S6）。\n'
+        '甲骨原形图：Wikimedia Commons「x-oracle.svg」（公版）。\n', encoding='utf-8')
+    (chars_dir / '自然现象' / 'ok.md').write_text(
+        '# 测试\n\n原拓片图：KLOBIP/OBIMD 甲骨文铭文多模态数据集（S6，CC-BY-4.0），主字 x。\n', encoding='utf-8')
     cases = [
         ('check1 收录范围', lambda: check1_scope([rec(id='a')], {'b': ('自然现象', '日')})),
         ('check1 多收框架外', lambda: check1_scope([rec(id='a')], {})),
@@ -445,6 +510,17 @@ def selftest():
              dict(id='b', strokes=[['line', 0, 0, 100, 100]], glyph_fingerprint='fp1')], {'a', 'b'}, set())),
         ('check11 json 与 md 的 id 集不一致', lambda: check11_strokes(
             [dict(id='a', strokes=[['line', 0, 0, 100, 100]])], {'a', 'zz'}, set())),
+        # check12 坏样本：拓片出处（OBIMD 断供三级口径）
+        ('check12 有 scan 无出处行（冒充拓片）', lambda: check12_scan_provenance(
+            [dict(id='a', scan='自然现象/a.png', path='characters/自然现象/a.md', scanKind='obimd')], chars_dir)),
+        ('check12 scanKind 与出处行矛盾', lambda: check12_scan_provenance(
+            [dict(id='a', scan='自然现象/a.png', path='characters/自然现象/ref.md', scanKind='obimd')], chars_dir)),
+        ('check12 无 scan 无兜底说明', lambda: check12_scan_provenance(
+            [dict(id='a', scan=None, path='characters/自然现象/a.md', scanKind=None)], chars_dir)),
+        ('check12 无 scan 但 scanKind 残留', lambda: check12_scan_provenance(
+            [dict(id='a', scan=None, path='characters/自然现象/none.md', scanKind='obimd')], chars_dir)),
+        ('check12 S6/S7 出处行并存', lambda: check12_scan_provenance(
+            [dict(id='a', scan='自然现象/a.png', path='characters/自然现象/both.md', scanKind='obimd')], chars_dir)),
     ]
     failures = []
     for name, fn in cases:
@@ -474,7 +550,12 @@ def selftest():
                      ('clean-check11 共图已登记放行', lambda: check11_strokes(
                          [dict(id='a', strokes=[['line', 0, 0, 100, 100]], glyph_fingerprint='fp1'),
                           dict(id='b', strokes=[['line', 0, 0, 100, 100]], glyph_fingerprint='fp1')],
-                         {'a', 'b'}, {'glyph-duplicate:rendered-shapes'}))]:
+                         {'a', 'b'}, {'glyph-duplicate:rendered-shapes'})),
+                     # clean-check12：三级口径的三个合法形态都要放行
+                     ('clean-check12 三级口径合法形态放行', lambda: check12_scan_provenance(
+                         [dict(id='a', scan='自然现象/a.png', path='characters/自然现象/ok.md', scanKind='obimd'),
+                          dict(id='b', scan='自然现象/b.png', path='characters/自然现象/ref.md', scanKind='ref'),
+                          dict(id='c', scan=None, path='characters/自然现象/none.md', scanKind=None)], chars_dir))]:
         try:
             errs = fn()
         except Exception as e:
